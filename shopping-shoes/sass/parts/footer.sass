@@ -1,0 +1,153 @@
+footer.footer
+  position: relative
+  background: $red_main
+  color: $white
+  line-height: 120px
+  text-align: center
+  .box
+    height: 120px
+  .footer_logo
+    float: left
+    line-height: 120px
+    a
+      text-transform: uppercase
+      .logo_bold
+        color: $white
+        font: 28px 'Muli'
+        font-weight: bolder
+      .logo_light
+        color: $white
+        font: 28px 'Muli'
+        font-weight: 100
+      &:hover .logo_bold
+        color: $black
+
+  nav
+    display: inline-block
+    ul.footer_nav
+      overflow: hidden
+      li
+        float: left
+        line-height: 1
+        border-right: 1px solid $white
+        padding: 2px 12px
+        &:last-child
+          border-right: none
+        a
+          color: $white
+          font: 14px 'Open Sans'
+          line-height: 14px
+          &:hover
+            text-decoration: underline
+  .socia_icons
+    float: right
+    ul
+      overflow: hidden
+      display: inline-block
+      vertical-align: sub
+      li
+        float: left
+        margin-right: 5px
+        &:last-child
+          margin-right: 0
+        a
+          display: block
+          color: $white
+          font: 32px "Open Sans"
+          line-height: 25px
+          &:hover
+            color: #cccccc
+
+
+@media screen and (max-width: 1200px)
+  footer.footer
+    padding: 0 20px
+
+@media screen and (max-width: 992px)
+  footer.footer, .wrapper:after
+    height: 110px
+  footer.footer
+    line-height: 110px
+    .box
+      height: 110px
+    .footer_logo
+      line-height: 110px
+      a
+        .logo_bold
+          font: 22px "Muli"
+          font-weight: bolder
+        .logo_light
+          font: 22px "Muli"
+    nav
+      ul.footer_nav
+        li
+          padding: 2px 5px
+          a
+            font: 12px "Open Sans"
+            line-height: 12px
+    .socia_icons
+      ul
+        li
+          margin-right: 10px
+          a
+            font: 27px "Open Sans"
+            line-height: 25px
+
+@media screen and (max-width: 767px)
+  footer.footer, .wrapper:after
+    height: auto
+
+  footer.footer
+    line-height: 1
+    padding-top: 10px
+    padding-bottom: 20px
+    .box
+      height: 110px
+      .footer_logo
+        float: none
+        line-height: 24px
+        a
+          .logo_bold
+            font: 18px "Muli"
+            font-weight: bolder
+          .logo_light
+            font: 18px "Muli"
+      nav
+        width: 100%
+        margin: 10px 0
+        ul.footer_nav
+          display: table
+          width: 100%
+          li
+            padding: 2px 5px
+            float: none
+            display: table-cell
+            a
+              font: 12px "Open Sans"
+              line-height: 12px
+    .socia_icons
+      float: none
+      ul
+        li
+          margin-right: 15px
+          a
+            font: 30px "Open Sans"
+            line-height: 27px
+
+@media screen and (max-width: 600px)
+
+  footer.footer
+    .box
+      height: auto
+      nav
+        ul.footer_nav
+          display: block
+          width: 100%
+          li
+            padding: 4px 5px
+            float: none
+            display: block
+            border-right: none
+            a
+              font: 16px "Open Sans"
+              line-height: 16px

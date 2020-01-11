@@ -1,0 +1,311 @@
+.wrapper
+  header
+    background: $main_bg
+    position: relative
+    &.index_header
+      margin-bottom: -30px
+      z-index: 10
+    .header_top
+      text-align: right
+      padding-top: 45px
+      padding-bottom: 18px
+      ul.header_top_contacts
+        display: inline-block
+        overflow: hidden
+        li
+          float: left
+          &:last-child
+            margin: 0 4px 0 32px
+          span
+            display: inline-block
+            margin-left: 10px
+            color: $dark_gray
+            font: 12px 'Gotham Rounded'
+          i
+            color: $dark_gray
+            font-size: 14px
+    .header_main
+      overflow: hidden
+      margin-bottom: 30px
+      .logo
+        float: left
+        a
+          text-transform: uppercase
+          font: 58px 'Muli'
+          line-height: 58px
+          .logo_bold
+            color: $red_main
+            font-weight: bolder
+          .logo_light
+            color: $black
+            font-weight: 100
+          &:hover .logo_bold
+            color: $black
+
+      .login
+        float: right
+        ul.login_items
+          overflow: hidden
+          padding: 6px 8px
+          border: 2px solid $login_border
+          border-radius: 8px
+          li
+            float: left
+            &.basket_col
+              width: 58px
+              height: 41px
+              line-height: 41px
+              text-align: center
+              a
+                color: $dark_gray
+                font: 14px 'Gotham Rounded'
+                display: inline-block
+                background: $search_bg
+                width: 32px
+                height: 32px
+                line-height: 32px
+                border-radius: 16px
+                vertical-align: middle
+                box-shadow: 0px 0px 2px 3px #e8e6e6
+                &:hover
+                  color: $red_main
+                  box-shadow: 0px 0px 2px 3px #DFDDDD
+            &.login_col
+              width: 88px
+              height: 41px
+              line-height: 41px
+              text-align: center
+              a
+                color: $black
+                font: 14px 'Gotham Rounded'
+                text-transform: uppercase
+                &:hover
+                  color: $red_main
+            &.register_col
+              a
+                display: inline-block
+                width: 167px
+                height: 41px
+                background-color: #f54f53
+                background-image: linear-gradient(to bottom, #ffb1ae 0%, #f54f53 10%, #e82026 30%, #ed2a2d 100%)
+                color: $white
+                text-align: center
+                border: 1px solid rgba(167, 37, 0, 0.8)
+                border-radius: 4px
+                font: 20px 'Gotham Rounded'
+                line-height: 41px
+                text-transform: uppercase
+                text-decoration: none
+                &:hover
+                  background-color: #E84D29
+                  background-image: linear-gradient(to bottom, #ffb1ae 0%, #E84629 10%, #E84725 30%, #EA2A2B 100%)
+
+    .nav_bar
+      position: relative
+      height: 72px
+      padding: 23px 28px 0 0
+      border: 1px solid #e6e6eb
+      overflow: hidden
+      background-color: #f7f7f7
+      background-image: linear-gradient(to bottom, #ffffff 0%, #f7f7f7 40%, #f7f7f7 100%)
+      .media_nav
+        display: none
+      .wrap_nav_bar
+        .search_form
+          float: right
+          width: 30%
+          text-align: right
+          input[type='text']
+            display: inline-block
+            width: 199px
+            height: 24px
+            padding: 1px 35px 0 8px
+            background-color: whitesmoke
+            color: $light_brown
+            font-size: 12px
+            border: 1px solid #cfc8bc
+            box-shadow: 0 1px 0 white, inset 0 1px 3px rgba(0, 0, 0, 0.2)
+            border-radius: 15px
+            outline: none
+          button.submit_search
+            display: inline-block
+            vertical-align: middle
+            margin-left: -33px
+            background: transparent
+            border: none
+            color: $light_brown
+            width: 24px
+            height: 24px
+            border-radius: 24px
+            cursor: pointer
+            outline: none
+        ul.header_nav
+          overflow: hidden
+          display: inline-block
+          width: 70%
+          li
+            float: left
+            padding: 0 30px
+            border-right: 1px solid $nav_border
+            line-height: 26px
+            height: 26px
+            &:last-child
+              border-right: none
+            a
+              text-transform: uppercase
+              text-decoration: none
+              color: $nav_gray
+              font: 24px 'Gotham Condensed'
+              &:hover
+                color: $red_main
+
+
+
+@media screen and (max-width: 1440px)
+
+
+@media screen and (max-width: 1200px)
+
+
+@media screen and (max-width: 992px)
+  .wrapper
+    header
+      .header_top
+        text-align: center
+        padding-top: 40px
+        padding-bottom: 16px
+      .header_main
+        margin-bottom: 20px
+        .login
+          float: none
+          text-align: center
+          border: 2px solid $login_border
+          ul.login_items
+            display: inline-block
+            border: 0px
+            border-radius: 0px
+        .logo
+          text-align: center
+          a
+            font: 52px "Muli"
+      .nav_bar
+        overflow: visible
+        padding: 2px 0 0 0
+        height: 50px
+        background-image: linear-gradient(to bottom, #ffffff 0%, #f7f7f7 30%, #f7f7f7 100%)
+        .media_nav
+          display: block
+          margin-right: 28px
+          float: right
+          font-size: 48px
+          color: $nav_gray
+          cursor: pointer
+        .wrap_nav_bar
+          display: none
+          background: #f7f7f7
+          position: absolute
+          top: 49px
+          left: 0
+          right: 0
+          z-index: 99
+          .search_form
+            float: none
+            width: 100%
+            text-align: center
+            padding: 10px 0
+            input[type='text']
+              width: 250px
+              height: 26px
+          ul.header_nav
+            width: 100%
+            display: block
+            li
+              float: none
+              display: block
+              line-height: 1
+              height: auto
+              padding: 0
+              text-align: center
+              border-right: none
+              border-bottom: 1px solid #e6e6eb
+              &:first-child
+                border-top: 1px solid #e6e6eb
+              a
+                display: inline-block
+                width: 100%
+                height: 45px
+                line-height: 45px
+                background-image: linear-gradient(to bottom, #ffffff 0%, #f7f7f7 50%, #efeaea 100%)
+
+
+
+@media screen and (max-width: 767px)
+  .wrapper
+    header
+      .header_top
+        text-align: center
+        padding-top: 30px
+        padding-bottom: 15px
+      .header_main
+        margin-bottom: 15px
+        .logo
+          float: none
+          padding: 8px 0
+          a
+            font: 42px "Muli"
+            line-height: 38px
+
+        .login
+          ul.login_items
+            li.basket_col,
+            li.login_col
+              height: 32px
+              line-height: 32px
+            li.register_col
+              a
+                height: 32px
+                line-height: 32px
+      .nav_bar
+        height: 45px
+        .media_nav
+          font-size: 40px
+        .wrap_nav_bar
+          top: 44px
+
+
+@media screen and (max-width: 600px)
+  .wrapper
+    header
+      margin-bottom: -20px
+      .header_top
+        text-align: center
+        padding-top: 20px
+        padding-bottom: 7px
+      .header_main
+        margin-bottom: 7px
+        .logo
+          a
+            font: 32px "Muli"
+
+@media screen and (max-width: 480px)
+  .wrapper
+    header
+      margin-bottom: -10px
+      .header_top
+        text-align: center
+        padding-top: 20px
+        padding-bottom: 10px
+      .header_main
+        margin-bottom: 10px
+        .logo
+          float: none
+          padding: 8px 0
+          a
+            font: 36px "Muli"
+            line-height: 32px
+        .login
+          ul.login_items
+            li.register_col
+              a
+                width: 120px
+                font-size: 14px

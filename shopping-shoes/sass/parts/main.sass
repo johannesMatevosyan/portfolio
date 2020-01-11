@@ -1,0 +1,562 @@
+.wrapper
+  section.slider
+    background: $light_green
+    z-index: -1
+    .main_products
+      position: relative
+      .item
+        .item_caption
+          position: absolute
+          top: 50%
+          left: 20%
+          transform: translateY(-40%)
+          h2
+            font-size: 50px
+            span
+              display: block
+              &.caption_big_title
+                color: $black
+                font: 154px 'Muli'
+                font-weight: bolder
+                line-height: 154px
+                text-transform: uppercase
+              &.caption_big_title_red
+                display: inline
+                color: $red_main
+              &.caption_big_medium
+                color: $white
+                font: 72px 'Muli'
+                font-weight: 400
+                line-height: 72px
+                text-transform: uppercase
+                padding-left: 10px
+          .get_access
+            +get_access_button
+            a
+              display: block
+              color: $white
+              height: 29px
+              line-height: 29px
+              text-align: center
+              .price
+                display: inline-block
+                border-right: 1px solid #cc1a12
+                padding-right: 4px
+                font: 11px 'Gotham Rounded'
+              .get_now
+                text-transform: uppercase
+                font: 14px 'Gotham Rounded'
+
+      .owl-controls
+        .owl-prev, .owl-next
+          display: inline-block
+          width: 86px
+          height: 86px
+          line-height: 93px
+          background-color: rgba(255, 255, 255, 0.74)
+          border: 7px solid rgba(36, 26, 14, 0.81)
+          border-radius: 43px
+          text-align: center
+          position: absolute
+          top: 50%
+          i
+            font-size: 42px
+            color: #2b2814
+        .owl-prev
+          left: 62px
+        .owl-next
+          right: 62px
+  section.totals
+    background: transparent
+    position: relative
+    margin: -150px 0 30px 0
+    z-index: 8
+    ul.list_totals
+      overflow: hidden
+      li
+        display: inline-block
+        vertical-align: middle
+        background: $white
+        width: 33%
+        height: 345px
+        text-align: center
+        margin-left: -3px
+        margin-right: 0.5%
+        padding-top: 32px
+        &:last-child
+          margin-right: 0
+        a.list_total_links
+          width: 172px
+          height: 172px
+          display: inline-block
+          margin-bottom: 22px
+          position: relative
+          img.list_totals_img
+            width: 172px
+            height: 172px
+          img.shadows_img
+            +hovered_img
+          &:hover img.shadows_img
+            display: block
+        h4
+          text-transform: uppercase
+          font: 25px 'Muli'
+          line-height: 25px
+          font-weight: bold
+          color: $red_main
+          margin-bottom: 6px
+        .total_number
+          +total_number_title
+        .total_bars
+          +total_bars_block
+
+  section.special_items
+    margin-bottom: 95px
+    .box
+      background: $white
+      .special_items_title
+        height: 65px
+        line-height: 65px
+        .view_all_products
+          float: right
+          color: #626162
+          font: 14px 'Open Sans'
+          display: inline-block
+          line-height: 14px
+          margin: 0 34px 0 0
+          line-height: 63px
+          &:hover
+            color: $red_main
+        h3
+          +black_red_title
+
+      ul.all_special_items
+        overflow: hidden
+        display: inline-block
+        padding: 0 12px 36px 12px
+        li
+          float: left
+          width: 24%
+          text-align: center
+          border-radius: 6px
+          border: 6px solid transparent
+          margin-right: 1.3%
+          margin-bottom: 14px
+          &:nth-child(4)
+            margin-right: 0
+          &:last-child
+            margin-right: 0
+          .wrap_special_item
+            padding: 12px 12px 18px 12px
+            border: 1px solid #eeeeee
+            border-radius: 6px
+            > a
+              display: block
+              position: relative
+              margin-bottom: 22px
+              img
+                width: 100%
+                border-bottom: 1px solid #eeeeee
+            .wrap_title
+              height: 38px
+              line-height: 55px
+              margin-bottom: 10px
+              h5
+                display: inline-block
+                color: $black
+                font: 18px 'Open Sans'
+                line-height: 18px
+                font-weight: 600
+                a
+                  text-transform: capitalize
+            .get_access
+              display: inline-block
+              width: 176px
+              color: $white
+              background-color: #e82026
+              background-image: linear-gradient(to top, #e82026 0%, #ea2328 100%)
+              border: 1px solid rgba(167, 37, 0, 0.8)
+              border-radius: 15px
+              a
+                display: block
+                color: $white
+                height: 29px
+                line-height: 29px
+                .price
+                  display: inline-block
+                  border-right: 1px solid #cc1a12
+                  padding-right: 4px
+                  font: 11px 'Gotham Rounded'
+                .get_now
+                  text-transform: uppercase
+                  font: 14px 'Gotham Rounded'
+              &:hover
+                background-color: #E84D29
+                background-image: linear-gradient(to top, #E84629 0%, #EA3A20 100%)
+          &:hover
+            border: 6px solid $red_main
+          &:hover .wrap_special_item
+            border: 1px solid transparent
+          &:hover .wrap_special_item a img
+            opacity: 0.8
+
+
+
+@media screen and (max-width: 1440px)
+  .wrapper
+    section.slider
+      .main_products
+        .item
+          .item_caption
+            h2
+              span.caption_big_title
+                font: 96px "Muli"
+                line-height: 96px
+              span.caption_big_medium
+                font: 45px "Muli"
+                line-height: 45px
+
+    section.totals
+      margin: -80px 0 30px 0
+
+@media screen and (max-width: 1200px)
+  .box
+    width: 100%
+
+  .wrapper
+    section.slider
+      .main_products
+        .item
+          .item_caption
+            h2
+              span.caption_big_title
+                font: 80px "Muli"
+                line-height: 80px
+              span.caption_big_medium
+                font: 36px "Muli"
+                line-height: 36px
+        .owl-controls
+          .owl-prev, .owl-next
+            display: inline-block
+            width: 78px
+            height: 78px
+            line-height: 83px
+            i
+              font-size: 38px
+              color: #2b2814
+          .owl-prev
+            left: 45px
+          .owl-next
+            right: 45px
+
+    section.totals
+      margin: -60px 0 30px 0
+      padding: 0 20px
+
+    section.special_items
+      padding: 0 20px
+
+@media screen and (max-width: 992px)
+
+  .wrapper
+    margin-bottom: -110px
+    section.slider
+      .main_products
+        .item
+          .item_caption
+            h2
+              span.caption_big_title
+                font: 60px "Muli"
+                line-height: 55px
+              span.caption_big_medium
+                font: 28px "Muli"
+                line-height: 28px
+                padding-left: 5px
+            .get_access
+              margin: 5px 0 0 5px
+        .owl-controls
+          .owl-prev, .owl-next
+            display: inline-block
+            width: 70px
+            height: 70px
+            line-height: 76px
+            i
+              font-size: 36px
+              color: #2b2814
+          .owl-prev
+            left: 40px
+          .owl-next
+            right: 40px
+    section.totals
+      margin: -40px 0 30px 0
+      ul.list_totals
+        li
+          height: 330px
+          padding-top: 20px
+    section.special_items
+      .box
+        .special_items_title
+
+        ul.all_special_items
+          padding: 0 6px 26px 6px
+          li
+            margin-bottom: 7px
+            .wrap_special_item
+              padding: 8px 2px 12px 2px
+              > a
+                margin-bottom: 16px
+              .wrap_title
+                height: 35px
+                line-height: 48px
+                margin-bottom: 5px
+                h5
+                  font: 14px "Open Sans"
+                  font-weight: 600
+                  line-height: 14px
+              .get_access
+                width: 100%
+                border-radius: 12px
+                a
+                  .price
+                    font: 11px "Gotham Rounded"
+                  .get_now
+                    font: 13px "Gotham Rounded"
+
+
+
+@media screen and (max-width: 767px)
+  .wrapper
+    margin-bottom: 0
+    section.slider
+      .main_products
+        .item
+          .item_caption
+            h2
+              span.caption_big_title
+                font: 45px "Muli"
+                line-height: 40px
+              span.caption_big_medium
+                font: 22px "Muli"
+                line-height: 22px
+            .get_access
+              margin: 5px 0 0 0
+              width: 145px
+              a
+                height: 25px
+                line-height: 25px
+                .get_now
+                  font: 12px "Gotham Rounded"
+        .owl-controls
+          .owl-prev,
+          .owl-next
+            width: 60px
+            height: 60px
+            line-height: 60px
+            i
+              font-size: 30px
+          .owl-prev
+            right: 25px
+          .owl-next
+            right: 25px
+    section.totals
+      margin: -30px 0 20px 0
+      ul.list_totals
+        li
+          height: 280px
+          padding-top: 10px
+          a.list_total_links
+            width: 150px
+            height: 150px
+            margin-bottom: 15px
+            img.list_totals_img
+              width: 148px
+              height: 148px
+          h4
+            font: 22px "Muli"
+            font-weight: bold
+
+    section.special_items
+      margin-bottom: 50px
+      .box
+        .special_items_title
+          height: 50px
+          line-height: 50px
+          .view_all_products
+            margin: 0 15px 0 0
+            line-height: 47px
+        ul.all_special_items
+          padding: 0 2px 15px 2px
+          li
+            .wrap_special_item
+              > a
+                margin-bottom: 10px
+              .wrap_title
+                height: 50px
+                line-height: 72px
+                margin-bottom: 5px
+                h5
+                  line-height: 16px
+              .get_access
+                width: 95%
+                border-radius: 15px
+                a
+                  height: auto
+                  line-height: 15px
+                  padding: 5px 0
+                  .price
+                    display: block
+                    font: 13px "Gotham Rounded"
+                    border-right: none
+                    padding-right: 0
+                  .get_now
+                    font: 13px "Gotham Rounded"
+                h4
+                  font: 18px "Muli"
+                  font-weight: bold
+
+@media screen and (max-width: 600px)
+
+  .wrapper
+    margin-bottom: 0
+    section.slider
+      .main_products
+        .item
+          .item_caption
+            h2
+              span.caption_big_title
+                font: 36px "Muli"
+                line-height: 40px
+              span.caption_big_medium
+                font: 18px "Muli"
+                line-height: 18px
+        .owl-controls
+          .owl-prev,
+          .owl-next
+            width: 45px
+            height: 45px
+            line-height: 42px
+            border: 4px solid rgba(36, 26, 14, 0.81)
+            i
+              font-size: 22px
+          .owl-prev
+            left: 15px
+          .owl-next
+            right: 15px
+
+    section.totals
+      margin: -15px 0 20px 0
+      ul.list_totals
+        li
+          height: 240px
+          padding-top: 10px
+          a.list_total_links
+            width: 130px
+            height: 130px
+            margin-bottom: 10px
+            img.list_totals_img
+              width: 128px
+              height: 128px
+
+    section.special_items
+      .box
+        ul.all_special_items
+          li
+            width: 42%
+            margin-left: 4%
+            margin-right: 4%
+            &:nth-child(4)
+              margin-left: 4%
+              margin-right: 4%
+            .wrap_special_item
+              .wrap_title
+                height: 35px
+                line-height: 45px
+
+@media screen and (max-width: 480px)
+
+  .wrapper
+    margin-bottom: 0
+    section.slider
+      .main_products
+        .item
+          .item_caption
+            h2
+              span.caption_big_title
+                font: 24px "Muli"
+                line-height: 24px
+              span.caption_big_medium
+                font: 16px "Muli"
+                line-height: 16px
+        .owl-controls
+          .owl-prev,
+          .owl-next
+            width: 32px
+            height: 32px
+            line-height: 28px
+            border: 3px solid rgba(36, 26, 14, 0.81)
+            i
+              font-size: 16px
+          .owl-prev
+            left: 10px
+          .owl-next
+            right: 10px
+
+    section.totals
+      margin: -7px 0 20px 0
+      ul.list_totals
+        li
+          height: 240px
+          padding-top: 10px
+          display: block
+          width: 80%
+          margin: 0 auto 10px
+          &:last-child
+            margin-right: auto
+          a.list_total_links
+            width: 130px
+            height: 130px
+            margin-bottom: 10px
+            img.list_totals_img
+              width: 128px
+              height: 128px
+
+    section.special_items
+      text-align: center
+      .box
+        .special_items_title
+          height: auto
+          line-height: 1
+          h3
+            display: block
+            margin: 0 0 5px 0
+          .view_all_products
+            display: block
+            margin: 0 0 5px 0
+            width: 100%
+            line-height: 14px
+
+        ul.all_special_items
+          li
+            float: none
+            width: 90%
+            display: block
+            margin-left: auto
+            margin-right: auto
+            margin-top: 5px
+            margin-bottom: 5px
+            &:last-child
+              margin-right: auto
+            .wrap_special_item
+              .get_access
+                width: 95%
+                border-radius: 15px
+                a
+                  height: auto
+                  line-height: 15px
+                  padding: 5px 0
+                  .price
+                    display: inline-block
+                    border-right: 1px solid #cc1a12
+                    font: 13px "Gotham Rounded"
+                    border-right: none
+                    padding-right: 0

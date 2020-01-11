@@ -1,0 +1,119 @@
+*
+  margin: 0
+  padding: 0
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  -moz-box-sizing: border-box
+
+body
+  background: $main_bg
+  color: $black
+  font-size: 17px
+  margin: 0
+  padding: 0
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+div
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+a
+  text-decoration: none
+  cursor:pointer
+
+a:hover, a:focus
+  outline:none
+
+.clear
+  clear: both
+
+.box
+  width: 970px
+  margin: 0 auto
+
+// sticky footer
+
+html, body
+  margin: 0
+  padding: 0
+  height: 100%
+
+h1, h2, h3, h4, h5, h6, p
+  margin: 0px
+
+.wrapper
+  margin-bottom: -120px
+
+.wrapper
+  min-height: 100%
+
+.wrapper:after
+  content: ""
+  display: block
+
+.owl-carousel
+  .owl-stage-outer
+    width: 100%
+
+
+
+// range picker
+.ui-slider-horizontal
+  height: 6px
+
+.ui-slider-horizontal
+  .ui-slider-handle
+    top: -4px
+
+.ui-slider
+  .ui-slider-handle
+    width: 12px
+    height: 12px
+    border-radius: 12px
+    cursor: pointer
+    outline: none
+
+.range_tooltip
+  background: $red_main
+  display: inline-block
+  position: absolute
+  top: 15px
+  left: -20px
+  width: 50px
+  text-align: center
+  padding: 4px 11px
+  border-radius: 3px
+  color: $white
+  font-size: 14px
+  font-family: 'Muli'
+  &:before
+    content: ''
+    width: 0
+    height: 0
+    position: absolute
+    top: -4px
+    left: 50%
+    margin-left: -4px
+    border-bottom: 4px solid $red_main
+    border-left: 4px solid transparent
+    border-right: 4px solid transparent
+
+
+
+.ui-widget-header
+  background: $red_main
+
+.ui-widget-content
+  background: #e1e1da
+  .ui-state-active
+    background: #e1e1da
+    border: 1px solid #B6B6AE
+
+
+
+footer.footer, .wrapper:after
+  height: 120px
+

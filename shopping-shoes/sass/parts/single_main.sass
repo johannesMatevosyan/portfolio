@@ -1,0 +1,863 @@
+.wrapper
+  section.filter_items
+    margin-top: 22px
+    margin-bottom: 30px
+    .box
+      .filter_title
+        h3
+          display: inline-block
+          margin-left: 12px
+          padding: 8px 14px
+          background: $black
+          a
+            color: $white
+            font-size: 18px
+            font-family: 'Muli'
+            font-weight: bold
+            line-height: 18px
+            text-transform: uppercase
+            &:hover
+              color: $red_main
+      .all_filtered_items
+        overflow: hidden
+        background: $white
+        padding: 40px 38px 16px 30px
+        .brand_list
+          width: 20%
+          float: left
+          h3
+            color: $black
+            font-size: 16px
+            font-family: 'Muli'
+            font-weight: bolder
+            line-height: 16px
+            text-transform: uppercase
+            margin-bottom: 15px
+          .list_col
+            text-align: right
+            display: inline-block
+            vertical-align: top
+            a
+              display: block
+              font-size: 12px
+              line-height: 12px
+              font-family: 'Open Sans'
+              color: $black
+              margin-bottom: 6px
+              text-decoration: none
+              &:hover
+                text-decoration: underline
+          .list_col:nth-of-type(1)
+            padding-right: 25px
+            border-right: 1px solid $col_border
+          .list_col:nth-of-type(2)
+            padding-left: 22px
+        .filter_totals
+          width: 55%
+          float: left
+          ul.list_totals
+            overflow: hidden
+            li
+              display: inline-block
+              vertical-align: middle
+              background: $white
+              width: 33%
+              height: 200px
+              text-align: center
+              margin-left: -3px
+              margin-right: 0.5%
+              &:last-child
+                margin-right: 0
+              h2
+                display: inline-block
+                width: 90%
+                margin-bottom: 10px
+                color: $black
+                font-size: 24px
+                font-family: 'Muli'
+                font-weight: 400
+                line-height: 24px
+                text-transform: uppercase
+              a.list_total_links
+                width: 100px
+                height: 100px
+                display: inline-block
+                margin-bottom: 12px
+                position: relative
+                img.list_totals_img
+                  width: 100px
+                  height: 100px
+                img.shadows_img
+                  +hovered_img
+                  width: 60px
+                  height: 54px
+                &:hover img.shadows_img
+                  display: block
+              h4
+                text-transform: uppercase
+                font: 14px 'Muli'
+                line-height: 14px
+                font-weight: bold
+                color: $red_main
+                margin-bottom: 6px
+              .total_number
+                +total_number_title
+                font-size: 10px
+                line-height: 10px
+                margin: 0 auto 4px
+              .total_bars
+                +total_bars_block
+                font-size: 18px
+
+      .filter_options
+        width: 25%
+        float: left
+        padding-top: 20px
+        padding-left: 20px
+        h3
+          color: $black
+          font-size: 16px
+          font-family: 'Muli'
+          font-weight: bolder
+          line-height: 18px
+          text-transform: uppercase
+          margin-bottom: 15px
+        .filter_color
+          margin-bottom: 30px
+          .color_list
+            height: 20px
+            .color
+              display: inline-block
+              margin-left: -4px
+              width: 20px
+              height: 20px
+              cursor: pointer
+              border: 1px solid transparent
+              &:hover
+                border: 1px solid $white
+              &:first-child
+                margin-left: 0
+            +color_patterns
+
+  section.single_item
+    margin-bottom: 50px
+    .single_item_title
+      h2
+        color: $black
+        font-size: 34px
+        font-family: 'Muli'
+        line-height: 28px
+        font-weight: bolder
+        margin-bottom: 10px
+      h4
+        color: $black
+        font-size: 18px
+        font-family: 'Muli'
+        line-height: 16px
+        font-weight: normal
+        margin-bottom: 14px
+    #gallery
+      display: inline-block
+      vertical-align: top
+      width: 48%
+      margin-left: -4px
+      .large_item
+        margin-bottom: 6px
+        border: 1px solid $gray_border
+        img
+          display: block
+          width: 100%
+          height: 100%
+      .thumbnails
+        a.thumbnail_item
+          display: inline-block
+          position: relative
+          width: 32%
+          height: 120px
+          margin-right: 2%
+          border: 8px solid $white
+          &:first-child
+            margin-left: 0
+          &:last-child
+            margin-right: 0
+          &.active
+            border: 8px solid $red_main
+            &:after
+              border: none
+          &:after
+            content: ''
+            background: none
+            border: 1px solid $gray_border
+            content: ""
+            display: block
+            position: absolute
+            top: -8px
+            left: -8px
+            right: -8px
+            bottom: -8px
+          img
+            width: 100%
+            height: 100%
+
+
+    .reviews
+      display: inline-block
+      vertical-align: top
+      width: 52%
+      margin-left: -4px
+      padding-left: 6%
+      .review_top
+        padding-left: 8px
+        padding-bottom: 17px
+        .prices_reviews
+          display: inline-block
+          vertical-align: middle
+          margin-left: -4px
+          width: 72%
+          .feedback_part
+            display: inline-block
+            width: 100%
+            padding-bottom: 3px
+            border-bottom: 1px solid #c7c7c7
+            .feedback
+              display: inline-block
+              width: 58%
+              ul.review_stars
+                display: inline-block
+                width: 100%
+                margin-bottom: 3px
+                li.review_star
+                  display: inline-block
+                  font-size: 18px
+                  &.red
+                    color: $red_main
+                  &.gray
+                    color: $nav_border
+              .read_reviews
+                display: inline-block
+                vertical-align: top
+                font-size: 11px
+                font-family: 'open_sansregular'
+                font-style: italic
+                text-decoration: underline
+            .old_price
+              display: inline-block
+              width: 40%
+              background: $red_main
+              vertical-align: bottom
+              text-align: center
+              height: 30px
+              line-height: 30px
+              font-size: 28px
+              font-family: 'Muli'
+              padding: 0 25px
+              color: $white
+              text-decoration: line-through
+          .new_price
+            display: inline-block
+            width: 100%
+            height: 68px
+            line-height: 68px
+            background: $white
+            color: $black
+            text-align: center
+            font-size: 64px
+            font-family: 'Muli'
+            font-weight: bolder
+            border: 1px solid #e5e5e5
+        .discount_part
+          display: inline-block
+          vertical-align: bottom
+          text-align: center
+          width: 28%
+          margin-left: -4px
+          img
+            display: inline-block
+            margin-bottom: 3px
+          span
+            font-size: 17px
+            font-family: 'Muli'
+            display: inline-block
+            &.save
+              font-weight: normal
+            &.percent
+              font-weight: bold
+
+      .review_main
+        text-align: right
+        p.review_desc
+          color: #929191
+          font-size: 16px
+          font-family: 'Muli'
+          margin-bottom: 10px
+          line-height: 14px
+        .free_shipping
+          margin-bottom: 25px
+          img
+            display: inline-block
+            vertical-align: middle
+          .free_shipping_txt
+            display: inline-block
+            vertical-align: middle
+            font-size: 16px
+            font-family: 'Muli'
+            font-weight: bold
+        .review_options
+          width: 207px
+          margin-bottom: 16px
+          display: inline-block
+          .size_option, .qty_option
+            display: inline-block
+            text-align: left
+          .qty_option
+            margin-left: 11px
+          label
+            display: block
+            margin-bottom: 4px
+            color: $black
+            font-size: 12px
+            font-family: 'Muli'
+            font-style: italic
+            font-weight: bold
+          .select
+            position: relative
+            display: inline-block
+            overflow: hidden
+            border: 1px solid $gray_border
+            border-radius: 4px
+            height: 34px
+            &.size
+              width: 128px
+            &.qty
+              width: 55px
+
+          select
+            background: $white
+            color: $black
+            width: 100%
+            height: 100%
+            padding: 8px 7px
+            font-size: 12px
+            font-family: 'Muli'
+            font-style: italic
+            font-weight: bold
+            line-height: 12px
+            border: none
+            outline: none
+            -webkit-appearance: none
+            -moz-appearance: none
+            appearance: none
+          .select:after
+            content: "\f0dc"
+            font-family: 'FontAwesome'
+            font-size: 12px
+            color: $black
+            position: absolute
+            right: 0
+            top: 0
+            border-top-right-radius: 4px
+            border-bottom-right-radius: 4px
+            z-index: 1
+            text-align: center
+            width: 20px
+            height: 100%
+            line-height: 34px
+            pointer-events: none
+        .wrap_cart
+          overflow: hidden
+          .add_to_cart
+            display: block
+            margin-bottom: 40px
+            background-color: #f54f53
+            background-image: linear-gradient(to bottom, #ffffff 0%, #ffb1ae 2%, #f54f53 10%, #e82026 30%, #ed2a2d 100%)
+            float: right
+            height: 46px
+            line-height: 46px
+            padding: 0 30px
+            color: $white
+            text-align: center
+            font-size: 21px
+            font-family: 'Muli'
+            font-weight: normal
+            border: 1px solid rgba(167, 37, 0, 0.8)
+            border-radius: 4px
+        .share_this
+          h4
+            font-size: 13px
+            font-family: 'Muli'
+            font-weight: bold
+            margin-bottom: 5px
+          .icon_block
+            display: inline-block
+            background: $white
+            height: 30px
+            line-height: 35px
+            text-align: center
+            padding: 0 11px 0 16px
+            border-radius: 5px
+            span
+              display: inline-block
+              margin: 0 2px
+              width: 16px
+              height: 16px
+              background: url('../img/share_this.png') no-repeat
+              &.fb
+                background-position: -4px 0
+              &.twitter
+                background-position: -24px 0
+              &.message
+                background-position: -44px 0
+              &.print
+                background-position: -64px 0
+              &.cross
+                background-position: -84px 0
+            .rate
+              display: inline-block
+              vertical-align: text-top
+              position: relative
+              margin-left: 3px
+              height: 16px
+              line-height: 16px
+              background: $white
+              color: $black
+              text-transform: uppercase
+              text-align: right
+              font-size: 12px
+              font-family: 'Muli'
+              font-weight: bold
+              padding: 0 2px 0 5px
+              border: 1px solid $nav_border
+              &:before
+                content: ''
+                position: absolute
+                top: 3px
+                left: -4px
+                border-right: 4px solid $nav_border
+                border-bottom: 4px solid transparent
+                border-top: 4px solid transparent
+              &:after
+                content: ''
+                position: absolute
+                top: 4px
+                left: -3px
+                border-right: 3px solid $white
+                border-bottom: 3px solid transparent
+                border-top: 3px solid transparent
+
+
+
+
+  section.overview_items
+    .overview_tabs li
+      background: $white
+      display: inline-block
+      height: 50px
+      line-height: 50px
+      text-align: center
+      padding: 0 25px
+      margin-left: 2px
+      cursor: pointer
+      &:first-child
+        margin-left: 0
+      span
+        text-transform: uppercase
+        color: $black
+        font-size: 15px
+        font-family: 'Open Sans'
+        font-weight: 500
+        line-height: 15px
+    .overview_tabs li.current
+      background: $red_main
+      span
+        color: $white
+
+    .overview_content .tab_content
+      display: none
+      background: $white
+      padding: 40px 27px 70px 27px
+      border: 1px solid $gray_border
+      .desc_title
+        text-transform: uppercase
+        color: $arrow_border
+        font-size: 18px
+        font-family: 'Open Sans'
+        font-weight: bold
+        line-height: 16px
+        margin-bottom: 10px
+      article
+        color: $text_gray
+        font-size: 14px
+        font-family: 'Open Sans'
+        font-weight: normal
+        line-height: 25px
+        margin-bottom: 25px
+      .details_title
+        text-transform: uppercase
+        color: $red_main
+        font-size: 14px
+        font-family: 'Open Sans'
+        font-weight: bold
+        line-height: 12px
+        margin-bottom: 14px
+
+      .details_list
+        li
+          margin-bottom: 12px
+          span
+            color: #898989
+            font-size: 12px
+            font-family: 'Open Sans'
+            font-weight: bold
+            line-height: 10px
+
+
+    .overview_content .tab_content.current
+      display: inherit
+
+
+
+@media screen and (max-width: 1200px)
+  .box
+    width: 100%
+  .wrapper
+    section.filter_items
+      padding: 0 20px
+      .box
+        .all_filtered_items
+          .brand_list
+            .list_col
+              &:nth-of-type(1)
+                padding-right: 10px
+              &:nth-of-type(2)
+                padding-left: 10px
+          .filter_totals
+            width: 50%
+            ul.list_totals
+              li
+                h2
+                  font-size: 22px
+                  font-family: "Muli"
+                  font-weight: 400
+                  line-height: 22px
+                a.list_total_links
+                  width: 90px
+                  height: 90px
+                  margin-bottom: 12px
+                  img.list_totals_img
+                    width: 90px
+                    height: 90px
+                h4
+                  margin-bottom: 10px
+                .total_number
+                  margin: 0 auto 10px
+          .filter_options
+            width: 30%
+            padding-left: 5px
+
+    section.single_item
+      padding: 0 20px
+
+    section.overview_items
+      padding: 0 20px
+
+
+@media screen and (max-width: 992px)
+
+  .wrapper
+    margin-bottom: -110px
+    section.filter_items
+      .box
+        .all_filtered_items
+          padding: 40px 6px 16px 6px
+          .brand_list
+            .list_col
+              &:nth-of-type(1)
+                padding-right: 5px
+              &:nth-of-type(2)
+                padding-left: 5px
+          .filter_totals
+            width: 50%
+            ul.list_totals
+              li
+                h2
+                  font-size: 20px
+                  font-family: "Muli"
+                  font-weight: 400
+                  line-height: 20px
+                a.list_total_links
+                  width: 80px
+                  height: 80px
+                  margin-bottom: 15px
+                  img.list_totals_img
+                    width: 80px
+                    height: 80px
+                h4
+                  margin-bottom: 10px
+                .total_number
+                  margin: 0 auto 10px
+          .filter_options
+            width: 30%
+            padding-left: 5px
+            .filter_color
+              .color_list
+                height: 18px
+                .color
+                  width: 18px
+                  height: 18px
+
+    section.single_item
+      .reviews
+        .review_top
+          padding-bottom: 10px
+          .prices_reviews
+            .feedback_part
+              .old_price
+                font-size: 24px
+                padding: 0
+            .new_price
+              height: 60px
+              line-height: 60px
+              font-size: 50px
+        .review_main
+          p.review_desc
+            font-size: 14px
+            margin-bottom: 8px
+          .free_shipping
+            margin-bottom: 18px
+          .review_options
+            margin-bottom: 8px
+          .wrap_cart
+            .add_to_cart
+              margin-bottom: 20px
+
+    section.overview_items
+      .overview_content
+        .tab_content
+          padding: 30px 22px 60px 22px
+        .details_list
+          li
+            margin-bottom: 8px
+
+@media screen and (max-width: 767px)
+
+  .wrapper
+    margin-bottom: 0
+    section.filter_items
+      .box
+        .all_filtered_items
+          padding: 40px 6px 16px 6px
+          .brand_list
+            float: none
+            width: 100%
+            margin-bottom: 18px
+            .list_col
+              &:nth-of-type(1)
+                padding-left: 10px
+                padding-right: 0
+                border-right: none
+              &:nth-of-type(2)
+                padding-left: 10px
+              a
+                display: inline-block
+                margin-right: 5px
+
+          .filter_totals
+            float: none
+            width: 90%
+            margin: 0 auto
+            ul.list_totals
+              li
+                h2
+                  font-size: 20px
+                  font-family: "Muli"
+                  font-weight: 400
+                  line-height: 20px
+                a.list_total_links
+                  width: 80px
+                  height: 80px
+                  margin-bottom: 15px
+                  img.list_totals_img
+                    width: 80px
+                    height: 80px
+                h4
+                  margin-bottom: 10px
+                .total_number
+                  margin: 0 auto 10px
+          .filter_options
+            float: none
+            width: 90%
+            padding-left: 5px
+            margin-bottom: 30px
+            .filter_color
+              margin-left: 4px
+              .color_list
+                height: 24px
+                display: inline-block
+                margin-left: -4px
+                .color
+                  width: 24px
+                  height: 24px
+
+    section.single_item
+      #gallery
+        width: 100%
+        margin-left: 0
+        margin-bottom: 30px
+      .reviews
+        width: 100%
+        padding-left: 0
+        margin-left: 0
+        margin-bottom: 30px
+        .review_top
+          padding-bottom: 15px
+        .review_main
+          text-align: center
+          .wrap_cart
+            .add_to_cart
+              float: none
+              width: 80%
+              margin: 0 auto 22px
+
+
+
+@media screen and (max-width: 600px)
+
+  .wrapper
+    margin-bottom: 0
+    section.filter_items
+      .box
+        .all_filtered_items
+          padding: 40px 6px 16px 6px
+          .brand_list
+            float: none
+            width: 100%
+            margin-bottom: 18px
+            .list_col
+              text-align: left
+              &:nth-of-type(1)
+                padding-left: 8px
+                padding-right: 0
+                border-right: none
+              &:nth-of-type(2)
+                padding-left: 10px
+              a
+                display: inline-block
+                margin-right: 3px
+
+          .filter_totals
+            float: none
+            width: 90%
+            margin: 0 auto
+            ul.list_totals
+              li
+                float: none
+                width: 90%
+                display: block
+                margin-left: auto
+                margin-right: auto
+                margin-bottom: 12px
+                &:last-child
+                  margin-right: auto
+                h2
+                  font-size: 22px
+                  font-family: "Muli"
+                  font-weight: 400
+                  line-height: 22px
+                a.list_total_links
+                  width: 90px
+                  height: 90px
+                  margin-bottom: 15px
+                  img.list_totals_img
+                    width: 90px
+                    height: 90px
+                h4
+                  margin-bottom: 10px
+                .total_number
+                  margin: 0 auto 10px
+                .total_bars
+                  font-size: 22px
+          .filter_options
+            float: none
+            width: 100%
+            padding-left: 0px
+            margin-bottom: 30px
+            .filter_color
+              margin-left: 4px
+              .color_list
+                height: 24px
+                display: inline-block
+                margin-left: 0px
+                &:nth-of-type(2)
+                  margin-top: -3px
+                .color
+                  width: 24px
+                  height: 24px
+
+    section.overview_items
+      .overview_tabs
+        li
+          height: 40px
+          line-height: 40px
+          padding: 0 10px
+          span
+            font-size: 14px
+            line-height: 14px
+      .overview_content
+        .tab_content
+          padding: 25px 18px 40px 18px
+          .desc_title
+            font-size: 16px
+          article
+            line-height: 20px
+            margin-bottom: 20px
+
+
+@media screen and (max-width: 480px)
+
+  .wrapper
+    margin-bottom: 0
+
+    section.single_item
+      .single_item_title
+        h2
+          font-size: 24px
+          line-height: 24px
+        h4
+          font-size: 14px
+          line-height: 14px
+          margin-bottom: 10px
+      .reviews
+        .review_top
+          .prices_reviews
+            .new_price
+              height: 45px
+              line-height: 45px
+              font-size: 38px
+            .feedback_part
+              .feedback
+                width: 57%
+              .old_price
+                font-size: 18px
+          .discount_part
+            img
+              width: 45px
+              height: 45px
+
+        .review_main
+          p.review_desc
+            line-height: 16px
+
+    section.overview_items
+      .overview_tabs
+        li
+          vertical-align: middle
+          height: 40px
+          line-height: 40px
+          padding: 0 5px
+          width: 31%
+          span
+            display: inline-block
+            vertical-align: middle
+            word-wrap: break-word
+            font-size: 12px
+            line-height: 12px
