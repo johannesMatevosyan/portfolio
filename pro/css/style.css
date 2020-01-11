@@ -1,0 +1,609 @@
+@import url("fonts.css");
+* {
+  margin: 0;
+  padding: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+nav {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+a {
+  color: #ffffff;
+  text-decoration: none; }
+
+body {
+  font-family: "robotoregular"; }
+  body .wrapper {
+    background: #e6e7e8;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%; }
+    body .wrapper .feedBack {
+      background: #e6e7e8;
+      text-align: right;
+      font-size: 12px;
+      width: 100%;
+      padding: 15px 0; }
+      body .wrapper .feedBack .orderCall {
+        background: #99cc66;
+        color: #ffffff;
+        text-decoration: underline;
+        padding: 7px 12px 5px 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 15px;
+        border: 1px solid #e6e7e8;
+        outline: none;
+        cursor: pointer; }
+      body .wrapper .feedBack span:last-child {
+        margin-right: 15px;
+        padding-left: 10px;
+        border-left: 1px solid #999a9a; }
+    body .wrapper .navBar {
+      background: #03060a;
+      position: relative;
+      height: 62px;
+      padding: 0px 0 0 37px; }
+      body .wrapper .navBar .logo {
+        width: 208px;
+        height: 103px;
+        border-radius: 12px;
+        border: 1px solid transparent;
+        position: absolute;
+        top: -31px; }
+        body .wrapper .navBar .logo:hover {
+          border: 1px solid #ffffff; }
+        body .wrapper .navBar .logo a {
+          display: block; }
+      body .wrapper .navBar .menuBtn {
+        background: #000000;
+        color: #363636;
+        display: none;
+        float: right;
+        padding: 10px 15px;
+        cursor: pointer; }
+        body .wrapper .navBar .menuBtn span {
+          background: #ffffff;
+          display: none;
+          width: 36px;
+          height: 5px;
+          margin: 6px 0; }
+      body .wrapper .navBar .navMenu {
+        font-family: "robotobold";
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 62px;
+        float: right; }
+        body .wrapper .navBar .navMenu .navItems {
+          display: inline-block;
+          margin-right: 18px; }
+          body .wrapper .navBar .navMenu .navItems ul li {
+            display: table-cell; }
+            body .wrapper .navBar .navMenu .navItems ul li a {
+              line-height: 13px;
+              padding: 24px 20px 22px 20px;
+              font-size: 12px; }
+              body .wrapper .navBar .navMenu .navItems ul li a:hover {
+                background: #ffffff;
+                color: #000000; }
+        body .wrapper .navBar .navMenu .requirePrices {
+          background: #cd404a;
+          display: block;
+          float: right;
+          padding: 0 37px;
+          font-size: 16px; }
+          body .wrapper .navBar .navMenu .requirePrices:hover {
+            background: #E65963; }
+    body .wrapper .banner {
+      background: #ecc840;
+      width: 100%;
+      padding: 32px 0 66px 0; }
+      body .wrapper .banner .bannerLeft {
+        display: inline-block;
+        padding-left: 25px;
+        max-width: 50%; }
+        body .wrapper .banner .bannerLeft h2 {
+          font-family: 'robotobold';
+          font-weight: 900;
+          font-size: 32px;
+          padding: 57px 0 31px 0;
+          line-height: 32px; }
+        body .wrapper .banner .bannerLeft p {
+          padding: 0 0 62px 0;
+          font-size: 16px;
+          line-height: 16px; }
+        body .wrapper .banner .bannerLeft .bannerLinks a {
+          font-weight: 600;
+          text-transform: uppercase;
+          color: #03060a;
+          border: 3px solid #000000;
+          padding: 14px 26px;
+          margin-right: 5px;
+          display: inline-block; }
+      body .wrapper .banner .bannerRight {
+        float: right;
+        max-width: 50%; }
+        body .wrapper .banner .bannerRight img {
+          width: 100%; }
+
+@media (max-width: 1300px) {
+  body .wrapper .navBar .logo {
+    width: 180px;
+    height: 93px;
+    top: -20px; }
+    body .wrapper .navBar .logo a img {
+      width: 180px;
+      height: 93px; }
+  body .wrapper .navBar .navMenu .navItems {
+    margin-right: 9px; }
+    body .wrapper .navBar .navMenu .navItems ul li a {
+      display: block;
+      padding: 25px 10px 24px 10px; }
+  body .wrapper .navBar .navMenu .requirePrices {
+    padding: 0 18px; } }
+@media (max-width: 1100px) {
+  body .wrapper .navBar .logo {
+    width: 180px;
+    height: 93px;
+    top: -20px; }
+    body .wrapper .navBar .logo a img {
+      width: 180px;
+      height: 93px; }
+  body .wrapper .navBar .navMenu .navItems {
+    margin-right: 8px; }
+    body .wrapper .navBar .navMenu .navItems ul li a {
+      display: block;
+      padding: 25px 8px 24px 8px;
+      font-size: 11px; }
+  body .wrapper .navBar .navMenu .requirePrices {
+    padding: 0 15px; } }
+@media (max-width: 992px) {
+  body .wrapper .header .navBar .logo {
+    width: 150px;
+    height: 60px;
+    top: 0; }
+    body .wrapper .header .navBar .logo a img {
+      width: 150px;
+      height: 60px; }
+  body .wrapper .header .navBar .menuBtn {
+    display: block; }
+    body .wrapper .header .navBar .menuBtn span {
+      background: #ffffff;
+      display: block; }
+  body .wrapper .header .navBar .navMenu {
+    background: #363636;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    width: 100%;
+    display: none;
+    z-index: 201;
+    top: 62px; }
+    body .wrapper .header .navBar .navMenu .navItems {
+      display: block;
+      width: 100%; }
+      body .wrapper .header .navBar .navMenu .navItems ul li {
+        display: block;
+        padding: 0px; }
+        body .wrapper .header .navBar .navMenu .navItems ul li a {
+          display: block;
+          padding: 15px 20px 15px 20px; }
+          body .wrapper .header .navBar .navMenu .navItems ul li a:hover {
+            background: #e6e7e8; }
+    body .wrapper .header .navBar .navMenu .requirePrices {
+      padding: 0px;
+      width: 100%;
+      text-align: center;
+      font-size: 12px; }
+  body .wrapper .banner .bannerLeft {
+    display: block;
+    max-width: 100%;
+    text-align: center; }
+  body .wrapper .banner .bannerRight {
+    display: none; } }
+@media (max-width: 767px) {
+  body .wrapper .feedBack .orderCall {
+    display: block;
+    width: 220px;
+    margin: 5px auto;
+    text-align: center; }
+  body .wrapper .feedBack span {
+    display: block;
+    text-align: center; } }
+@media (max-width: 480px) {
+  body .wrapper .header .navBar .menuBtn {
+    display: block; }
+    body .wrapper .header .navBar .menuBtn span {
+      background: #ffffff;
+      display: block; }
+  body .wrapper .header .navBar .navMenu {
+    background: #363636;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    width: 100%;
+    display: none;
+    z-index: 201;
+    top: 62px; }
+    body .wrapper .header .navBar .navMenu .navItems {
+      display: block;
+      width: 100%; }
+      body .wrapper .header .navBar .navMenu .navItems ul li {
+        display: block;
+        padding: 0px; }
+        body .wrapper .header .navBar .navMenu .navItems ul li a {
+          display: block;
+          padding: 15px 20px 15px 20px; }
+          body .wrapper .header .navBar .navMenu .navItems ul li a:hover {
+            background: #e6e7e8; }
+    body .wrapper .header .navBar .navMenu .requirePrices {
+      padding: 0px;
+      width: 100%;
+      text-align: center;
+      font-size: 12px; }
+  body .wrapper .banner {
+    padding: 35px 5px 12px 5px; }
+    body .wrapper .banner .bannerLeft {
+      height: auto;
+      padding: 25px 0 20px 0; }
+      body .wrapper .banner .bannerLeft h2 {
+        font-size: 22px;
+        padding: 10px 0 10px 0;
+        line-height: 22px; }
+      body .wrapper .banner .bannerLeft p {
+        padding: 0 0 21px 0; }
+      body .wrapper .banner .bannerLeft .bannerLinks a {
+        padding: 8px 26px;
+        display: block;
+        margin: 5px 5px; }
+    body .wrapper .banner .bannerRight {
+      display: none; } }
+body {
+  /* modal window */ }
+  body .wrapper {
+    margin: 0 auto -76px; }
+    body .wrapper .brandList {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      body .wrapper .brandList .left {
+        float: left; }
+      body .wrapper .brandList .right {
+        float: right; }
+      body .wrapper .brandList .suppliersWrap .suppliers {
+        width: 150px;
+        height: 130px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 130px; }
+      body .wrapper .brandList .suppliersWrap .suppliersOuter {
+        margin-left: 151px;
+        margin-right: 151px; }
+        body .wrapper .brandList .suppliersWrap .suppliersOuter .suppliersList .owl-stage-outer .owl-item .item {
+          text-align: center;
+          line-height: 165px;
+          height: 130px; }
+          body .wrapper .brandList .suppliersWrap .suppliersOuter .suppliersList .owl-stage-outer .owl-item .item img {
+            display: inline-block;
+            max-width: 100%; }
+        body .wrapper .brandList .suppliersWrap .suppliersOuter .suppliersList .owl-item .item img {
+          display: inline-block;
+          width: auto; }
+      body .wrapper .brandList .services {
+        padding: 15px 0; }
+      body .wrapper .brandList .clientsWrap .clients {
+        width: 150px;
+        height: 100%;
+        text-align: center;
+        font-size: 12px;
+        line-height: 130px; }
+      body .wrapper .brandList .clientsWrap .clientOuter {
+        margin-left: 150px; }
+        body .wrapper .brandList .clientsWrap .clientOuter .clientList .owl-item .item {
+          text-align: center;
+          line-height: 165px;
+          height: 130px; }
+          body .wrapper .brandList .clientsWrap .clientOuter .clientList .owl-item .item img {
+            display: inline-block;
+            width: auto; }
+    body .wrapper .mainContent {
+      margin: 0 15px 62px 15px;
+      overflow: hidden;
+      clear: both; }
+      body .wrapper .mainContent .mainContentLeft {
+        width: 49%;
+        float: left;
+        margin-right: 1%;
+        padding-bottom: 100000px;
+        margin-bottom: -100000px; }
+        body .wrapper .mainContent .mainContentLeft .mainArticle {
+          background: #ffffff;
+          position: relative;
+          margin-bottom: 3px;
+          padding: 15px;
+          min-height: 238px; }
+          body .wrapper .mainContent .mainContentLeft .mainArticle h2 {
+            font-size: 24px;
+            padding-top: 28px; }
+            body .wrapper .mainContent .mainContentLeft .mainArticle h2 a {
+              text-decoration: underline;
+              color: #000000; }
+          body .wrapper .mainContent .mainContentLeft .mainArticle p {
+            font-size: 14px;
+            padding-top: 15px; }
+      body .wrapper .mainContent .mainContentRight {
+        float: left;
+        width: 49%;
+        margin-left: 1%;
+        padding-bottom: 100000px;
+        margin-bottom: -100000px; }
+        body .wrapper .mainContent .mainContentRight .discountForm {
+          background: #ffffff;
+          overflow: hidden;
+          position: relative;
+          margin-bottom: 3px;
+          padding: 15px;
+          min-height: 238px; }
+          body .wrapper .mainContent .mainContentRight .discountForm .discountOffer {
+            margin-right: 180px;
+            padding: 115px 20px 0px 0px; }
+          body .wrapper .mainContent .mainContentRight .discountForm .discountSize {
+            background: #333333;
+            width: 160px;
+            height: 160px;
+            right: 50px;
+            top: 43px;
+            border-radius: 80px;
+            position: absolute;
+            font-size: 62px; }
+            body .wrapper .mainContent .mainContentRight .discountForm .discountSize span {
+              position: absolute;
+              left: 30px;
+              top: 40px;
+              color: #ffffff; }
+        body .wrapper .mainContent .mainContentRight .getDiscount {
+          padding-left: 0px; }
+          body .wrapper .mainContent .mainContentRight .getDiscount .discountFields {
+            display: inline-block;
+            background: #ffffff;
+            margin-bottom: 3px;
+            margin-left: 0px;
+            padding: 15px 20px;
+            width: 50%; }
+            body .wrapper .mainContent .mainContentRight .getDiscount .discountFields label {
+              display: block;
+              color: #666666;
+              font-size: 12px;
+              padding-bottom: 6px; }
+            body .wrapper .mainContent .mainContentRight .getDiscount .discountFields input {
+              display: block;
+              color: #cccccc;
+              font-size: 18px;
+              text-transform: uppercase;
+              width: 100%;
+              height: 25px;
+              border: none;
+              outline: none; }
+            body .wrapper .mainContent .mainContentRight .getDiscount .discountFields textarea {
+              width: 100%;
+              height: 182px;
+              border: none;
+              outline: none; }
+            body .wrapper .mainContent .mainContentRight .getDiscount .discountFields.discountRightCol {
+              margin-left: -4px;
+              border-left: 3px solid #e6e7e8; }
+            body .wrapper .mainContent .mainContentRight .getDiscount .discountFields.fullWidthInputs {
+              width: 100%; }
+            body .wrapper .mainContent .mainContentRight .getDiscount .discountFields.submitDiscount {
+              vertical-align: top;
+              padding: 0; }
+              body .wrapper .mainContent .mainContentRight .getDiscount .discountFields.submitDiscount .submitDiscountButton {
+                background: #99cc66;
+                color: #ffffff;
+                border: 1px solid #99cc66;
+                font-family: "robotobold";
+                cursor: pointer;
+                height: 77px;
+                width: 100%; }
+                body .wrapper .mainContent .mainContentRight .getDiscount .discountFields.submitDiscount .submitDiscountButton:hover {
+                  background: #B5F339; }
+    body .wrapper .mainDescriptions {
+      background: #ffffff;
+      overflow: hidden;
+      padding: 65px 55px; }
+      body .wrapper .mainDescriptions .mainDescItem {
+        float: left;
+        width: 33.3%;
+        padding: 0px 50px 10px;
+        font-size: 14px; }
+    body .wrapper .push {
+      height: 76px; }
+  body footer {
+    background: #e6e7e8;
+    position: relative;
+    height: 76px;
+    padding: 0 32px; }
+    body footer .footerParent {
+      display: table;
+      height: 70px;
+      width: 100%; }
+      body footer .footerParent .footerChild {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 10px; }
+        body footer .footerParent .footerChild .footerLeft {
+          width: 100%;
+          height: 70px;
+          display: table;
+          float: left; }
+          body footer .footerParent .footerChild .footerLeft span {
+            vertical-align: middle;
+            display: table-cell; }
+            body footer .footerParent .footerChild .footerLeft span img {
+              vertical-align: middle;
+              display: table-cell;
+              margin-right: 1em; }
+        body footer .footerParent .footerChild .footerRight {
+          height: 70px;
+          display: table;
+          float: right; }
+          body footer .footerParent .footerChild .footerRight span {
+            vertical-align: middle;
+            display: table-cell; }
+            body footer .footerParent .footerChild .footerRight span img {
+              vertical-align: middle;
+              display: table-cell;
+              margin-right: 1em; }
+  body #orderCallForm {
+    background: #ffffff; }
+    body #orderCallForm .backCall .backCallImage {
+      text-align: right;
+      padding: 5px 30px; }
+    body #orderCallForm .backCall .backCallText {
+      padding: 15px 20px; }
+      body #orderCallForm .backCall .backCallText h2 {
+        font-size: 25px; }
+      body #orderCallForm .backCall .backCallText p {
+        font-size: 18px; }
+    body #orderCallForm .backCall fieldset {
+      border: 0;
+      padding-top: 3px;
+      background: #03060a; }
+      body #orderCallForm .backCall fieldset .backCallFields {
+        display: inline-block;
+        background: #ffffff;
+        margin-bottom: 3px;
+        padding: 15px 20px;
+        width: 50%; }
+        body #orderCallForm .backCall fieldset .backCallFields label {
+          display: block;
+          color: #666666;
+          font-size: 12px;
+          padding-bottom: 6px; }
+        body #orderCallForm .backCall fieldset .backCallFields input {
+          display: block;
+          color: #cccccc;
+          font-size: 18px;
+          text-transform: uppercase;
+          width: 100%;
+          height: 25px;
+          border: none;
+          outline: none; }
+        body #orderCallForm .backCall fieldset .backCallFields.leftCallInput {
+          margin-left: -4px;
+          border-left: 3px solid; }
+        body #orderCallForm .backCall fieldset .backCallFields.fullWidthInputs {
+          width: 100%; }
+        body #orderCallForm .backCall fieldset .backCallFields.submitBackCall {
+          padding: 0;
+          margin-bottom: 0px; }
+          body #orderCallForm .backCall fieldset .backCallFields.submitBackCall .submitCallButton {
+            background: #99cc66;
+            color: #ffffff;
+            border: 1px solid #99cc66;
+            font-family: "robotobold";
+            cursor: pointer;
+            height: 77px; }
+
+/* Querires for content */
+@media (max-width: 992px) {
+  body .wrapper {
+    /* mainContent*/ }
+    body .wrapper .mainContent {
+      margin: 0 15px 20px 15px; }
+      body .wrapper .mainContent .mainContentLeft {
+        width: 100%;
+        float: none;
+        margin-right: 0; }
+      body .wrapper .mainContent .mainContentRight {
+        width: 100%;
+        float: none;
+        margin-left: 0; }
+        body .wrapper .mainContent .mainContentRight .discountForm .discountOffer {
+          margin-right: 180px;
+          padding: 115px 20px 0px 0px; }
+        body .wrapper .mainContent .mainContentRight .discountForm .discountSize {
+          background: #333333;
+          width: 160px;
+          height: 160px;
+          right: 50px;
+          top: 43px;
+          border-radius: 80px;
+          position: absolute;
+          font-size: 62px; }
+          body .wrapper .mainContent .mainContentRight .discountForm .discountSize span {
+            position: absolute;
+            left: 30px;
+            top: 40px;
+            color: #ffffff; } }
+@media (max-width: 767px) {
+  body .wrapper {
+    margin: 0 auto;
+    /* mainContent*/ }
+    body .wrapper .mainContent {
+      margin: 0 15px 20px 15px; }
+      body .wrapper .mainContent .mainContentLeft {
+        width: 100%;
+        float: none;
+        margin-right: 0; }
+      body .wrapper .mainContent .mainContentRight {
+        width: 100%;
+        float: none;
+        margin-left: 0; }
+        body .wrapper .mainContent .mainContentRight .discountForm .discountOffer {
+          margin-right: 180px;
+          padding: 115px 20px 0px 0px; }
+        body .wrapper .mainContent .mainContentRight .discountForm .discountSize {
+          width: 120px;
+          height: 120px;
+          right: 45px;
+          top: 43px;
+          border-radius: 60px; }
+          body .wrapper .mainContent .mainContentRight .discountForm .discountSize span {
+            left: 12px;
+            top: 20px; }
+        body .wrapper .mainContent .mainContentRight .getDiscount .discountFields {
+          display: block;
+          width: 100%; }
+          body .wrapper .mainContent .mainContentRight .getDiscount .discountFields.discountRightCol {
+            margin-left: 0px;
+            border-left: none; }
+    body .wrapper .mainDescriptions .mainDescItem {
+      float: none;
+      display: block;
+      width: 100%;
+      padding: 0px 50px 20px;
+      font-size: 14px; }
+    body .wrapper .push {
+      height: auto; }
+  body footer {
+    padding: 10px 3px;
+    height: auto; } }
+
+  .white-popup-block {
+      background: #FFF;
+      padding: 20px 0 0 0;
+      text-align: left;
+      max-width: 695px;
+      margin: 40px auto;
+      position: relative;
+  }
+
+/*# sourceMappingURL=style.css.map */
