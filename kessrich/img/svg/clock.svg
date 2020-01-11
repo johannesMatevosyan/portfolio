@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="10.623463mm"
+   height="10.645746mm"
+   viewBox="0 0 37.642191 37.721148"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="clock.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.76015625"
+     inkscape:cx="16.933851"
+     inkscape:cy="-163.58906"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="224"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-164.02709,-120.56895)">
+    <image
+       sodipodi:absref="E:\WebServers\home\localhost\www\front-end\verstka\ecommerce\kessrich\img\icons\clock.png"
+       y="119.392"
+       x="162.85713"
+       id="image4144"
+       xlink:href="file:///E:/WebServers/home/localhost/www/front-end/verstka/ecommerce/kessrich/img/icons/clock.png"
+       preserveAspectRatio="none"
+       height="40"
+       width="40" />
+    <path
+       style="fill:#b7b7b7"
+       d="m 175.35713,156.50196 c -9.80087,-4.5234 -13.96217,-15.17999 -9.60996,-24.60996 6.9679,-15.0974 27.25202,-15.0974 34.21992,0 4.45286,9.64804 -0.11994,20.68144 -10.34149,24.95227 -4.86517,2.0328 -9.35572,1.92507 -14.26847,-0.34231 z m 13.0216,-6.68723 c 3.4427,-1.63367 6.4784,-6.51764 6.4784,-10.42273 0,-3.90509 -3.0357,-8.78906 -6.4784,-10.42273 -4.1627,-1.97533 -6.8488,-1.99037 -10.91441,-0.0611 -8.5941,4.07817 -8.68986,16.72194 -0.15853,20.93238 3.93215,1.94062 6.94377,1.9336 11.07294,-0.0258 z m -5.34729,-6.73718 c -1.40724,-1.49795 -2.17431,-3.59384 -2.17431,-5.94098 0,-4.96714 1.74235,-5.65454 2.59136,-1.02236 0.38082,2.07778 1.30356,4.66542 2.05052,5.7503 2.75019,3.99431 0.96825,4.8703 -2.46757,1.21304 z"
+       id="path4147"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg5251"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="55.84201"
+   height="54.905697"
+   viewBox="0 0 55.84201 54.905697"
+   sodipodi:docname="new.svg">
+  <metadata
+     id="metadata5257">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5255" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="832"
+     inkscape:window-height="878"
+     id="namedview5253"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="6.7380682"
+     inkscape:cx="49.890547"
+     inkscape:cy="27.405696"
+     inkscape:window-x="0"
+     inkscape:window-y="232"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5251" />
+  <image
+     width="56"
+     height="55"
+     preserveAspectRatio="none"
+     xlink:href="file:///E:/WebServers/home/localhost/www/front-end/verstka/ecommerce/kessrich/img/icons/new.png"
+     id="image5259"
+     x="0"
+     y="0"
+     sodipodi:absref="E:\WebServers\home\localhost\www\front-end\verstka\ecommerce\kessrich\img\icons\new.png" />
+  <path
+     style="fill:#b7b7b7"
+     d="M 18.021559,53.043686 C 7.929717,49.560231 0,38.320682 0,27.5 0,12.955695 13.191253,0 28,0 39.49509,0 51.342343,8.4938148 54.405837,18.931501 57.628389,29.911115 55.450498,38.834218 47.642358,46.642358 39.581204,54.703513 29.279779,56.929745 18.021559,53.043686 Z M 35.38398,48.777677 c 2.473423,-0.734526 5.922898,-3.029202 8.643697,-5.75 9.291882,-9.291882 9.291882,-21.763472 0,-31.055354 -9.375057,-9.3750568 -22.680297,-9.3750568 -32.055354,0 -9.2911573,9.291158 -9.2911573,21.752758 0,31.066226 6.515126,6.53077 14.310773,8.441793 23.411657,5.739128 z M 16,27.5 c 0,-5.816925 0.98568,-6.969454 2.779505,-3.25 l 1.085134,2.25 0.06768,-2.25 C 19.969544,23.0125 20.45,22 21,22 c 0.55,0 1,2.475 1,5.5 0,5.816925 -0.98568,6.969454 -2.779505,3.25 L 18.135361,28.5 18.06768,30.75 C 18.030456,31.9875 17.55,33 17,33 16.45,33 16,30.525 16,27.5 Z m 8,0 c 0,-5.2 0.136364,-5.5 2.5,-5.5 2.61581,0 3.399916,1.468182 1.25,2.340536 -0.943756,0.38294 -0.882508,0.7895 0.25,1.659464 1.132508,0.869964 1.193756,1.276524 0.25,1.659464 C 26.765733,28.261723 26.560805,31 28,31 c 0.55,0 1,0.45 1,1 0,0.55 -1.125,1 -2.5,1 C 24.136364,33 24,32.7 24,27.5 Z m 6.641848,1.75 C 29.759741,23.913267 29.854256,22 31,22 c 0.55,0 1,0.873442 1,1.940983 0,1.067541 0.45,2.219098 1,2.559017 0.567158,0.350523 1,-0.489616 1,-1.940983 0,-3.458829 1.972109,-3.28002 2.106381,0.190983 l 0.10638,2.75 1.092638,-2.766994 c 0.60095,-1.521847 1.565579,-2.60434 2.143619,-2.405541 1.275187,0.438562 0.760518,7.675968 -0.670058,9.422535 -1.604016,1.958315 -3.597705,1.468853 -4.073227,-1 l -0.433369,-2.25 -0.136182,2.25 c -0.225092,3.718964 -2.81549,2.606993 -3.494334,-1.5 z"
+     id="path5801"
+     inkscape:connector-curvature="0" />
+</svg>

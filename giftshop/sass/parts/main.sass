@@ -1,0 +1,1211 @@
+.wrapper
+  .gallery
+    margin-top: 15px
+    margin-bottom: 30px
+    .gal_row
+      margin-bottom: 4px
+      overflow: hidden
+      .gal_left
+        float: left
+        width: 664px
+        margin-right: 4px
+        &.top
+          .wrap_gal_item
+            position: relative
+            background-color: $black
+            &.h570
+              a
+                display: block
+                height: 570px
+                img
+                  width: 100%
+                  height: 100%
+                &:hover img
+                  opacity: 0.8
+              .gal_caption
+                +gal_caption_big
+              ul.gallery_item_options
+                +gallery_items_small
+        &.bottom
+          .search_product
+            background: $light_vinous
+            padding: 48px 52px 48px 57px
+            text-align: center
+            .wrap_input
+              position: relative
+              width: 570px
+              margin: 0 auto
+              text-align: left
+              .holder
+                position: absolute
+                top: 50%
+                margin-top: -10px
+                margin-left: 24px
+                z-index: 2
+                font: $base_font16 $droid_normal
+                color: $text_black
+                letter-spacing: 1px
+                .placeholder_gray
+                  color: $input_gray
+              #search_pro
+                display: inline-block
+                vertical-align: middle
+                margin-right: 18px
+                width: calc(100% - 113px)
+                height: 71px
+                background-color: white
+                box-shadow: 1px 1.7px 7px rgba(0, 0, 0, 0.19)
+                padding-left: 24px
+                font: $base_font16 $droid_normal
+                color: $text_black
+                border: 0px
+                outline: none
+              #search_pro:focus
+                &::-webkit-input-placeholder,
+                &:-moz-placeholder,
+                &::-moz-placeholder,
+                &:-ms-input-placeholder
+                  color:transparent
+              #search_pro_submit
+                display: inline-block
+                vertical-align: middle
+                width: 53px
+                height: 53px
+                background: url('../img/lope.png') no-repeat
+                background-size: cover
+                border: 1px solid $light_vinous
+                cursor: pointer
+                outline: none
+          .wrap_gal_item
+            position: relative
+            background-color: $black
+            &.h335
+              margin-top: 4px
+              a
+                display: block
+                height: 332px
+                img
+                  width: 100%
+                  height: 100%
+                &:hover img
+                  opacity: 0.8
+              .gal_item_options
+                +gallery_items_medium
+
+      .gal_right
+        float: left
+        width: 500px
+        &.top
+          .wrap_gal_item
+            position: relative
+            background-color: $black
+            &.h320
+              a
+                display: block
+                height: 320px
+                img
+                  width: 100%
+                  height: 100%
+                &:hover img
+                  opacity: 0.8
+              .gal_caption
+                +gal_caption_small
+              ul.gallery_item_options
+                +gallery_items_small
+            &.h245
+              margin-top: 4px
+              a
+                display: block
+                height: 245px
+                img
+                  width: 100%
+                &:hover img
+                  opacity: 0.8
+              .gal_caption
+                +gal_caption_small
+              ul.gallery_item_options
+                +gallery_items_small
+        &.bottom
+          .wrap_gal_item
+            position: relative
+            background-color: $black
+            &.h506
+              a
+                display: block
+                height: 506px
+                img
+                  width: 100%
+                  height: 100%
+                &:hover img
+                  opacity: 0.8
+              .jewellery
+                background-color: rgba(94, 79, 99, 0.85)
+                position: absolute
+                padding: 15px 0 0 0
+                right: 0px
+                bottom: 0px
+                width: 87px
+                height: 410px
+                .jewellery_title
+                  display: inline-block
+                  vertical-align: middle
+                  color: $white
+                  text-transform: uppercase
+                  font: 59px $aparaj_normal
+                  -ms-transform: rotate(-90deg)
+                  -webkit-transform: rotate(-90deg)
+                  transform: rotate(-90deg)
+                  transform-origin: 17px 2px
+                  position: absolute
+                  left: 5px
+                  bottom: -20px
+                  line-height: 1
+                .jew_arrow
+                  position: relative
+                  display: inline-block
+                  vertical-align: middle
+                  text-align: center
+                  margin: 0 0 0 -10px
+                  height: 97px
+                  line-height: 98px
+                  width: 97px
+                  background: $light_vinous
+                  &:before
+                    content: ''
+                    width: 0
+                    height: 0
+                    position: absolute
+                    left: 0px
+                    bottom: -10px
+                    border-top: solid 5px #c6535d
+                    border-right: solid 5px #c6535d
+                    border-left: solid 5px transparent
+                    border-bottom: solid 5px transparent
+                  .wrap_arrow
+                    display: inline-block
+                    vertical-align: middle
+                    border-radius: 50%
+                    width: 53px
+                    height: 53px
+                    line-height: 70px
+                    text-align: center
+                    background-color: $white
+                    i
+                      color: $light_vinous
+                      font-size: 42px
+
+  .slide_items_pro
+    .section_title
+      height: 77px
+      line-height: 119px
+      border-bottom: 1px solid $item_gray
+      h2
+        font: 30px $droid_normal
+        color: $light_blue
+        text-transform: capitalize
+        display: inline-block
+        margin-left: 32px
+        border-bottom: 1px solid $caption_red
+        line-height: 43px
+    .new_products
+      position: relative
+      padding-top: 106px
+      margin-top: -80px
+      margin-bottom: 30px
+      .item
+        position: relative
+        img
+          width: 100%
+        .pro_item_options
+          display: none
+          position: absolute
+          top: 50%
+          left: 50%
+          margin-top: -28px
+          margin-left: -141px
+          >li
+            height: 55px
+            line-height: 65px
+            vertical-align: middle
+            overflow: hidden
+            display: inline-block
+            &:not(:first-child)
+              margin-left: -3px
+            &.pro_opt_1
+              background: $light_blue
+              padding: 0 5px
+              line-height: 60px
+              h2
+                font: 16px $droid_normal
+                text-transform: uppercase
+                color: rgba(255, 255, 255, 1)
+                line-height: 55px
+                display: inline-block
+            &.pro_opt_2
+              background: #00a1be
+              padding: 0 15px
+              .box_icon
+                display: inline-block
+                width: 24px
+                height: 25px
+                background: url("../img/main_sprite.png") no-repeat
+                background-position: -1px 0
+            &.pro_opt_3
+              background: $light_vinous
+              padding: 0 14px
+              .basket_icon
+                display: inline-block
+                width: 28px
+                height: 25px
+                background: url("../img/main_sprite.png") no-repeat
+                background-position: -28px 0
+            &.pro_opt_4
+              background-color: rgba(94, 79, 99, 0.85)
+              padding: 0 14px
+              h2
+                display: inline-block
+                .main_price
+                  color: rgba(255, 255, 255, 1)
+                  font: 24px $droid_normal
+                .remainder_price
+                  color: rgba(255, 255, 255, 1)
+                  font: 12px $droid_normal
+                  vertical-align: text-top
+                  line-height: 8px
+        &:hover
+          background: black
+        &:hover img
+          opacity: 0.85
+        &:hover .pro_item_options
+          display: block
+      .owl-controls
+        position: absolute
+        top: 0
+        right: 0
+        .owl-nav
+          .owl-next
+            margin-left: 1px
+          .owl-prev, .owl-next
+            display: inline-block
+            width: 70px
+            height: 79px
+            line-height: 102px
+            text-align: center
+            background: $arrow_black
+            color: $white
+            i
+              font-size: 49px
+            &:hover
+              background: $light_blue
+
+  .slide_items_feat
+    .section_title
+      height: 77px
+      line-height: 119px
+      border-bottom: 1px solid $item_gray
+      h2
+        font: 30px $droid_normal
+        color: $light_blue
+        text-transform: capitalize
+        display: inline-block
+        margin-left: 32px
+        border-bottom: 1px solid $caption_red
+        line-height: 43px
+    .featured_products
+      position: relative
+      padding-top: 106px
+      margin-top: -80px
+      margin-bottom: 45px
+      .item
+        border: 1px solid #dddddd
+        position: relative
+        a
+          display: block
+          img
+            width: 100%
+        .item_caption
+          h4
+            margin-bottom: -3px
+            a
+              display: inline-block
+              font: $dropdown_font18 $lato_normal
+              color: $text_black
+              text-decoration: none
+              padding-top: 16px
+              padding-left: 11px
+              line-height: 18px
+              letter-spacing: 1.5px
+              &:hover
+                text-decoration: underline
+          &>span
+            display: inline-block
+            font: 13px $lato_normal
+            color: $light_vinous
+            padding-left: 11px
+            padding-bottom: 8px
+            margin-top: -3px
+            letter-spacing: 1.5px
+            &:hover
+              color: $light_blue
+          .short_desc_items
+            display: table
+            width: 100%
+            li
+              display: table-cell
+              text-align: center
+              background: $white
+              border-top: 1px solid $item_gray
+              border-right: 1px solid $item_gray
+              &:last-child
+                border-right: none
+              & > a
+                display: block
+                padding: 10px 8px
+            .item_1
+              .arrow_icon
+                display: inline-block
+                width: 15px
+                height: 22px
+                background: url("../img/main_sprite.png") no-repeat
+                background-position: -92px 0
+            .item_2
+              .box_icon
+                display: inline-block
+                width: 15px
+                height: 24px
+                background: url("../img/main_sprite.png") no-repeat
+                background-position: -112px 0
+            .item_3
+              .basket_icon
+                display: inline-block
+                width: 17px
+                height: 24px
+                background: url("../img/main_sprite.png") no-repeat
+                background-position: -132px 0
+            .item_4
+              background-color: $light_vinous
+              h2
+                display: inline-block
+                .main_price
+                  color: rgba(255, 255, 255, 1)
+                  font: 24px $droid_normal
+                .remainder_price
+                  color: rgba(255, 255, 255, 1)
+                  font: 12px $droid_normal
+                  vertical-align: text-top
+                  line-height: 8px
+        .addons
+          position: absolute
+          display: none
+          width: 80px
+          height: 34px
+          top: 13px
+          left: -2px
+          color: $white
+          font: $dropdown_font14 $droid_normal
+          text-align: center
+          line-height: 34px
+          &.new_item
+            background: $light_blue
+          &.sale_item
+            background: $light_vinous
+            text-transform: uppercase
+        &:hover .addons
+          display: block
+        &:hover .item_caption .short_desc_items .item_4
+          background-color: $light_blue
+      .owl-controls
+        position: absolute
+        top: 0
+        right: 0
+        .owl-nav
+          .owl-next
+            margin-left: 1px
+          .owl-prev, .owl-next
+            display: inline-block
+            width: 70px
+            height: 79px
+            line-height: 102px
+            text-align: center
+            background: $arrow_black
+            color: $white
+            i
+              font-size: 51px
+            &:hover
+              background: $light_vinous
+
+  .who_we_are
+    .section_title
+      height: 36px
+      line-height: 30px
+      margin-top: -4px
+      line-height: 45px
+      border-bottom: 1px solid $item_gray
+      h2
+        font: 30px $droid_normal
+        color: $light_blue
+        text-transform: capitalize
+        display: inline-block
+        margin-left: 32px
+        border-bottom: 1px solid $light_vinous
+    .section_content
+      padding: 30px 0 32px 0
+      border-bottom: 1px solid $item_gray
+      p
+        margin: 0 30px 0 30px
+        font: 16px $droid_normal
+        color: $text_black
+        line-height: 25px
+      ul.reg_steps
+        overflow: hidden
+        margin: 36px 0 25px 0
+        li
+          float: left
+          width: 32%
+          margin-right: 2%
+          &:last-child
+            margin-right: 0%
+          img
+            width: 100%
+          &:hover img
+            opacity: 0.9
+      .register_now
+        display: block
+        margin: 0 auto
+        width: 648px
+        height: 61px
+        text-transform: capitalize
+        text-decoration: none
+        text-align: center
+        font: 28px $droid_normal
+        background-color: $light_blue
+        color: $white
+        line-height: 61px
+        &:hover
+          background-color: $light_vinous
+
+@media screen and (max-width: 1200px)
+  .wrapper
+    .gallery
+      .gal_row
+        .gal_left
+          width: 57%
+          margin-right: 0.5%
+          &.bottom
+            .wrap_gal_item
+              &.h335
+                a
+                  img
+                    display: block
+            .search_product
+              .wrap_input
+                width: 80%
+                #search_pro
+                  height: 50px
+                  padding-left: 12px
+        .gal_right
+          width: 42.5%
+          &.top
+            .wrap_gal_item
+              &.h320
+                a
+                  height: auto
+                  img
+                    width: 100%
+                    height: 100%
+                    display: block
+              &.h245
+                a
+                  height: auto
+                  img
+                    width: 100%
+                    height: 100%
+                    display: block
+
+    .slide_items_pro
+      .new_products
+        .owl-controls
+          top: 8px
+          .owl-nav .owl-prev,
+          .owl-nav .owl-next
+            width: 63px
+            height: 70px
+            line-height: 98px
+    .slide_items_feat
+      .featured_products
+        .item
+          margin-bottom: 5px
+        .owl-controls
+          top: 8px
+          .owl-nav .owl-prev,
+          .owl-nav .owl-next
+            width: 63px
+            height: 70px
+            line-height: 98px
+
+@media screen and (max-width: 992px)
+
+  .wrapper
+    .gallery
+      .gal_row
+        .gal_left
+          width: 55%
+          margin-left: 2%
+          .wrap_gal_item
+            .gal_caption.big
+              width: 310px
+              .gal_caption_content
+                padding: 5px 7px 10px 10px
+                h4
+                  font: 40px $droid_bold
+                .caption_desc
+                  padding: 6px 0px 6px 0px
+                  font: 12px $droid_normal
+                .caption_subtitle
+                  margin: 5px 5px 0 0
+                  font: 10px $droid_normal
+                  line-height: 14px
+            .gallery_item_options
+              bottom: 12px
+              >li
+                height: 45px
+                line-height: 56px
+                &.pro_opt_1
+                  padding: 0 5px
+                  line-height: 40px
+                  h2
+                    font: 16px $droid_normal
+                    line-height: 47px
+                &.pro_opt_2
+                  padding: 0 5px
+                &.pro_opt_3
+                  background: $light_vinous
+                  padding: 0 5px
+                &.pro_opt_4
+                  padding: 0 7px
+                  h2
+                    .main_price
+                      color: rgba(255, 255, 255, 1)
+                      font: 20px $droid_normal
+          &.bottom
+            .search_product
+              padding: 30px 0 30px 0
+        .gal_right
+          width: 40%
+          margin-right: 2%
+          .wrap_gal_item.h321
+            height: auto
+            margin-bottom: 8px
+            img
+              margin-bottom: -4px
+          .wrap_gal_item.h245
+            height: auto
+            margin-bottom: 8px
+            img
+              margin-bottom: -4px
+          .wrap_gal_item.h506
+            a
+              img
+                width: 100%
+                height: 100%
+                margin-bottom: -4px
+          .wrap_gal_item
+            .gal_caption.medium
+              width: 250px
+              .gal_caption_content
+                padding: 5px 3px 10px 10px
+                h4
+                  font: 24px $droid_bold
+                .caption_subtitle
+                  margin: 5px 5px 0 0
+                  font: 10px $droid_normal
+            .gal_caption.big
+              width: 250px
+              .gal_caption_content
+                h4
+                  font: 24px $droid_bold
+                .caption_subtitle
+                  margin: 5px 5px 0 0
+                  font: 10px $droid_normal
+            .gallery_item_options
+              bottom: 12px
+              >li
+                height: 45px
+                line-height: 56px
+                &:not(:first-child)
+                  margin-left: -5px
+                &.pro_opt_1
+                  line-height: 40px
+                  h2
+                    font: 16px $droid_normal
+                    line-height: 47px
+                &.pro_opt_2
+                  padding: 0 5px
+                &.pro_opt_3
+                  padding: 0 5px
+                &.pro_opt_4
+                  background-color: rgba(94, 79, 99, 0.85)
+                  padding: 0 7px
+                  h2
+                    .main_price
+                      font: 20px $droid_normal
+
+    .slide_items_pro
+      padding: 0 2%
+      .section_title
+        h2
+          font: 25px $droid_normal
+          line-height: 40px
+      .new_products
+        .item
+          position: relative
+          img
+            width: 100%
+          .pro_item_options
+            display: none
+            position: absolute
+            top: 50%
+            left: 50%
+            margin-top: -20px
+            margin-left: -98px
+            >li
+              height: 45px
+              line-height: 55px
+              &.pro_opt_1
+                background-color: rgba(94, 79, 99, 0.85)
+                padding: 0 5px
+                line-height: 45px
+                h2
+                  font: 12px $droid_normal
+                  line-height: 55px
+              &.pro_opt_2
+                padding: 0 5px
+              &.pro_opt_3
+                padding: 0 5px
+              &.pro_opt_4
+                padding: 0 7px
+                h2
+                  display: inline-block
+                  .main_price
+                    font: 16px $droid_normal
+                  .remainder_price
+                    font: 12px $droid_normal
+        .owl-controls
+          top: 17px
+          .owl-nav .owl-prev,
+          .owl-nav .owl-next
+            width: 63px
+            height: 63px
+            line-height: 86px
+            i
+              font-size: 42px
+
+    .slide_items_feat
+      padding: 0 2%
+      .section_title
+        h2
+          font: 25px $droid_normal
+          line-height: 40px
+      .featured_products
+        .item
+          .item_caption
+            h4
+              margin-bottom: 0
+              a
+                font: 14px "droid_sansregular"
+                padding-top: 8px
+                padding-left: 5px
+                letter-spacing: 1px
+            >span
+              font: 10px "latoregular"
+              letter-spacing: 1px
+              margin-top: 0
+              padding-left: 5px
+              padding-bottom: 10px
+            .short_desc_items
+              li
+                line-height: 34px
+                > a
+                  padding: 3px 8px
+                &.item_4
+                  h2
+                    .main_price
+                      font: 16px $droid_normal
+                    .remainder_price
+                      font: 12px $droid_normal
+                      vertical-align: text-top
+          .addons, .sale_item
+            height: 25px
+            line-height: 25px
+        .owl-controls
+          top: 17px
+          .owl-nav .owl-prev,
+          .owl-nav .owl-next
+            width: 63px
+            height: 63px
+            line-height: 86px
+            i
+              font-size: 42px
+
+    .who_we_are
+      padding: 0 2%
+      .section_title
+        height: auto
+        line-height: normal
+      .section_content
+        padding: 20px 0 20px 0
+        ul.reg_steps
+          width: 90%
+          margin: 20px auto 20px auto
+        .register_now
+          width: 90%
+          margin: 20px auto 20px auto
+          height: 48px
+          font: 24px $droid_normal
+          line-height: 48px
+
+@media screen and (max-width: 766px)
+  .wrapper
+    .gallery
+      margin-left: 15px
+      margin-right: 15px
+      .gal_row
+        &:first-child
+          margin-bottom: -3px
+        .gal_left
+          width: 100%
+          margin: 0 0 4px 0
+          .wrap_gal_item
+            .gal_caption.big
+              .caption_desc
+                font: 14px $droid_normal
+            .gallery_item_options
+              li
+                &.pro_opt_2
+                  padding: 0 10px
+                &.pro_opt_3
+                  padding: 0 9px
+            &.h335
+              margin-bottom: 2px
+        .gal_right
+          width: 100%
+          &.bottom
+            .wrap_gal_item
+              position: relative
+              background-color: $black
+              &.h506
+                a
+                  display: block
+                  height: 506px
+                  img
+                    width: 100%
+                    height: auto
+            .gallery_item_options
+              > li
+                &.pro_opt_2
+                  padding: 0 10px
+                &.pro_opt_3
+                  padding: 0 9px
+            &.h321
+              margin-bottom: 4px
+
+
+    .slide_items_pro
+      .section_title
+        height: 76px
+        h2
+          line-height: 38px
+          margin-left: 15px
+      .new_products
+        .item
+          .pro_item_options
+            margin-top: -20px
+            margin-left: -87px
+            >li
+              height: 45px
+              &.pro_opt_1
+                padding: 0 3px
+                line-height: 45px
+                h2
+                  font: 10px $droid_normal
+                  line-height: 10px
+              &.pro_opt_2
+                padding: 0 5px
+              &.pro_opt_3
+                padding: 0 5px
+              &.pro_opt_4
+                padding: 0 5px
+                h2
+                  display: inline-block
+                  .main_price
+                    font: 14px $droid_normal
+                  .remainder_price
+                    font: 10px $droid_normal
+        .owl-controls
+          top: 17px
+
+    .slide_items_feat
+      .section_title
+        height: 76px
+        h2
+          line-height: 38px
+          margin-left: 15px
+      .featured_products
+        .item
+          .short_desc_items
+            li
+              line-height: 34px
+              > a
+                padding: 5px 8px 8px 8px
+        .owl-controls
+          top: 17px
+    .who_we_are
+      .section_title
+        height: 36px
+        h2
+          margin-left: 15px
+
+@media screen and (max-width: 639px)
+  .wrapper
+    .gallery
+      .gal_row
+        .gal_left
+          &.top
+            .wrap_gal_item
+              &.h570
+                a
+                  height: auto
+                  img
+                    margin-bottom: -4px
+          &.bottom
+            .wrap_gal_item
+              &.h335
+                .gal_item_options
+                  &.large
+                    .opt_1
+                      padding: 0 10px
+                      h2
+                        font: 24px $droid_normal
+                    .opt_4
+                      padding: 0 10px
+        .gal_right
+          &.bottom
+            .wrap_gal_item
+              &.h506
+                a
+                  height: auto
+                .jewellery
+                  .jewellery_title
+                    font: 48px "aparajitaregular"
+                    left: 4px
+                    bottom: 0
+    .slide_items_pro
+      padding: 0 15px
+      .section_title
+        h2
+          font: 18px $droid_normal
+          line-height: 35px
+      .new_products
+        .item
+          .pro_item_options
+            > li
+              &.pro_opt_1
+                h2
+                  line-height: 50px
+              &.pro_opt_4
+                line-height: 50px
+        .owl-controls
+          top: 24px
+          .owl-nav .owl-prev,
+          .owl-nav .owl-next
+            width: 56px
+            height: 56px
+            line-height: 74px
+    .slide_items_feat
+      padding: 0 15px
+      .section_title
+        h2
+          font: 18px $droid_normal
+          line-height: 35px
+      .featured_products
+        margin-top: -79px
+        .item
+          .item_caption
+            .short_desc_items
+              li
+                > a
+                  padding: 5px 8px 12px 8px
+        .owl-controls
+          top: 24px
+          .owl-nav .owl-prev,
+          .owl-nav .owl-next
+            width: 56px
+            height: 56px
+            line-height: 74px
+    .who_we_are
+      padding: 0 15px
+      .section_title
+        height: 34px
+        h2
+          font: 18px $droid_normal
+          line-height: 35px
+      .section_content
+        p
+          font: 14px $droid_normal
+
+
+@media screen and (max-width: 480px)
+  .wrapper
+    .gallery
+      .gal_row
+        .gal_left
+          &.top
+            .wrap_gal_item
+              &.h570
+                .gal_caption
+                  width: 310px
+                  .gal_caption_content
+                    padding: 5px 3px 5px 10px
+                    h4
+                      font: 45px "aparajitaregular"
+                      line-height: 45px
+                    .caption_subtitle
+                      font: 10px "latoregular"
+                    .caption_desc
+                      font: 14px "aparajitaregular"
+                      height: 30px
+                      line-height: 35px
+                      padding-left: 10px
+                ul.gallery_item_options
+                  &> li
+                    height: 35px
+                    line-height: 40px
+                    &.pro_opt_1
+                      line-height: 35px
+                      h2
+                        line-height: 16px
+                    &.pro_opt_2
+                      padding: 0 8px
+                    &.pro_opt_3
+                      padding: 0 8px
+                    &.pro_opt_4
+                      padding: 0 8px
+          &.bottom
+            .search_product
+              margin-top: 2px
+              padding: 15px 0 15px 0
+              .wrap_input 
+                width: 96%
+                #search_pro
+                  height: 30px
+                  padding-left: 8px
+                  width: calc(100% - 70px)
+                #search_pro_submit
+                  height: 30px
+                  width: 30px
+            .wrap_gal_item
+              &.h335
+                a
+                  height: auto
+                  img
+                    height: auto
+                .gal_item_options
+                  &.large
+                    > span
+                      height: 35px
+                      line-height: 40px
+                    .opt_1
+                      padding: 0 8px
+                      h2
+                        font: 16px $droid_normal
+                    .opt_2
+                      padding: 0 8px
+                    .opt_3
+                      padding: 0 8px
+                      .basket_tooltip
+                        left: -10px
+                    .opt_4
+                      padding: 0 8px
+        .gal_right
+          &.top
+            .wrap_gal_item
+              &.h320
+                .gal_caption
+                  padding: 5px 0 5px 10px
+                  bottom: 5px
+                  h4
+                    font: 30px "aparajitaregular"
+                  .caption_subtitle
+                    font: 10px "droid_sansregular"
+                      font: 10px "droid_sansregular"
+                ul.gallery_item_options
+                  &> li
+                    height: 35px
+                    line-height: 40px
+                    &.pro_opt_1
+                      line-height: 35px
+                      h2
+                        line-height: 16px
+                    &.pro_opt_2
+                      padding: 0 8px
+                    &.pro_opt_3
+                      padding: 0 8px
+                    &.pro_opt_4
+                      padding: 0 8px
+              &.h245
+                .gal_caption
+                  padding: 5px 0 5px 10px
+                  bottom: 5px
+                  h4
+                    font: 20px "aparajitaregular"
+                  .caption_subtitle
+                    font: 10px "droid_sansregular"
+                ul.gallery_item_options
+                  &> li
+                    height: 35px
+                    line-height: 40px
+                    &.pro_opt_1
+                      line-height: 35px
+                      h2
+                        line-height: 16px
+                    &.pro_opt_2
+                      padding: 0 8px
+                    &.pro_opt_3
+                      padding: 0 8px
+                    &.pro_opt_4
+                      padding: 0 8px
+          &.bottom
+            .wrap_gal_item
+              &.h506
+                a
+                  height: auto
+                .jewellery
+                  width: 55px
+                  height: 215px
+                  .jew_arrow
+                    height: 65px
+                    line-height: 65px
+                    width: 65px
+                    .wrap_arrow
+                      width: 45px
+                      height: 45px
+                      line-height: 45px
+                  .jewellery_title
+                    font: 24px "aparajitaregular"
+                    left: 0px
+                    bottom: 10px
+    .slide_items_pro
+      .new_products
+        margin-top: -74px
+        .owl-controls
+          top: 24px
+          .owl-nav .owl-prev,
+          .owl-nav .owl-next
+            width: 40px
+            height: 50px
+            line-height: 64px
+            i
+              font-size: 36px
+    .slide_items_feat
+      .featured_products
+        margin-top: -74px
+        .item
+          .item_caption
+            .short_desc_items
+              li
+                line-height: 20px
+        .owl-controls
+          top: 24px
+          .owl-nav .owl-prev,
+          .owl-nav .owl-next
+            width: 40px
+            height: 50px
+            line-height: 64px
+            i
+              font-size: 36px
+    .who_we_are
+      .section_content
+        ul.reg_steps
+          li
+            float: none
+            width: 100%
+            display: block
+            margin: 5px auto 7px
+            &:last-child
+              margin-right: auto
+
+@media screen and (max-width: 360px)
+  .wrapper
+    .gallery
+      .gal_row
+        .gal_left
+          &.top
+            .wrap_gal_item
+              &.h570
+                .gal_caption
+                  width: 260px
+                  .gal_caption_content
+                    padding: 5px 3px 5px 10px
+                    h4
+                      font: 24px "aparajitaregular"
+                      line-height: 24px
+                    .caption_subtitle
+                      font: 10px "latoregular"
+                  .caption_desc
+                    font: 14px "aparajitaregular"
+                    height: 22px
+                    line-height: 25px
+                    padding-left: 10px
+          &.bottom
+            .search_product
+              margin-top: 2px
+              padding: 15px 0 15px 0
+              .wrap_input
+                width: 96%
+            .wrap_gal_item
+              &.h335
+                a
+                  height: auto
+                  img
+                    height: auto
+        .gal_right
+          &.top
+            .wrap_gal_item
+              &.h320
+                .gal_caption
+                  width: 250px
+                  padding: 5px 0 5px 10px
+                  bottom: 5px
+                  h4
+                    font: 20px "aparajitaregular"
+                  .caption_subtitle
+                    font: 10px "droid_sansregular"
+              &.h245
+                .gal_caption
+                  width: 250px
+                  padding: 5px 0 5px 10px
+                  bottom: 5px
+                  h4
+                    font: 30px "aparajitaregular"
+                  .caption_subtitle
+                    font: 10px "droid_sansregular"
+          &.bottom
+            .wrap_gal_item
+              &.h506
+                a
+                  height: auto
+                .jewellery
+                  width: 55px
+                  height: 215px
+                  .jew_arrow
+                    height: 65px
+                    line-height: 65px
+                    width: 65px
+                    .wrap_arrow
+                      width: 45px
+                      height: 45px
+                      line-height: 45px
+                  .jewellery_title
+                    font: 24px "aparajitaregular"
+                    left: 0px
+                    bottom: 10px

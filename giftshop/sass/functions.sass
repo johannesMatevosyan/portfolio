@@ -1,0 +1,231 @@
+=top_nav_item
+  display: block
+  color: $text_black
+  text-decoration: none
+
+=nav_item($height, $line_height)
+  display: block
+  font: $base_font16 $droid_normal
+  height: $height
+  line-height: $line_height
+  color: $white
+  text-decoration: none
+  text-align: center
+
+=box_shadow($h-shadow, $v-shadow, $blur, $spread, $color)
+  box-shadow: 0 0 $blur $spread $color
+  -moz-box-shadow: 0 0 $blur $spread $color
+  -webkit-box-shadow: 0 0 $blur $spread $color
+  -o-box-shadow: 0 0 $blur $spread $color
+
+
+=gal_caption_big
+  width: 348px
+  position: absolute
+  left: 0
+  bottom: 12px
+  .gal_caption_content
+    background: rgba(54, 42, 79, .85)
+    padding: 16px 3px 18px 19px
+    opacity: 0.85
+    h4
+      font: 58px $aparaj_normal
+      font-weight: bold
+      color: rgba(240, 98, 110, 1)
+      line-height: 58px
+      text-transform: uppercase
+      white-space: nowrap
+    .caption_subtitle
+      display: block
+      margin-top: 2px
+      font: 13px $lato_normal
+      line-height: 15px
+      color: $white
+      text-transform: uppercase
+  .caption_desc
+    display: block
+    background: $light_vinous
+    margin-top: 2px
+    font: $caption_subtitle20 $aparaj_normal
+    height: 40px
+    line-height: 45px
+    color: $white
+    text-align: center
+    text-transform: uppercase
+
+
+=gal_caption_medium
+
+=gal_caption_small
+  width: 268px
+  position: absolute
+  left: 0
+  bottom: 12px
+  background: rgba(54, 42, 79, .85)
+  padding: 14px 0 11px 19px
+  h4
+    font: 35px $aparaj_normal
+    font-weight: bold
+    color: rgba(240, 98, 110, 1)
+    line-height: 26px
+    text-transform: uppercase
+    white-space: nowrap
+  .caption_subtitle
+    display: block
+    margin: 2px 0 0 0
+    font: 12px $droid_normal
+    line-height: 14px
+    color: $white
+    text-transform: uppercase
+
+=gallery_items_small
+  display: none
+  position: absolute
+  bottom: 28px
+  right: 0
+  >li
+    height: 55px
+    line-height: 65px
+    vertical-align: middle
+    overflow: hidden
+    display: inline-block
+    &:not(:first-child)
+      margin-left: -5px
+    &.pro_opt_1
+      background: $light_blue
+      padding: 0 5px
+      line-height: 60px
+      h2
+        font: 16px $droid_normal
+        text-transform: uppercase
+        color: rgba(255, 255, 255, 1)
+        line-height: 55px
+        display: inline-block
+    &.pro_opt_2
+      background: #00a1be
+      padding: 0 15px
+      .box_icon
+        display: inline-block
+        width: 24px
+        height: 25px
+        background: url("../img/main_sprite.png") no-repeat
+        background-position: -1px 0
+    &.pro_opt_3
+      background: $light_vinous
+      padding: 0 14px
+      .basket_icon
+        display: inline-block
+        width: 28px
+        height: 25px
+        background: url("../img/main_sprite.png") no-repeat
+        background-position: -28px 0
+    &.pro_opt_4
+      background-color: rgba(94, 79, 99, 0.85)
+      padding: 0 14px
+      h2
+        display: inline-block
+        .main_price
+          color: rgba(255, 255, 255, 1)
+          font: 24px $droid_normal
+        .remainder_price
+          color: rgba(255, 255, 255, 1)
+          font: 12px $droid_normal
+          vertical-align: text-top
+          line-height: 8px
+
+
+=gallery_items_medium
+  position: absolute
+  bottom: 0px
+  right: 0px
+  &.large
+    >span
+      height: 55px
+      line-height: 65px
+      vertical-align: middle
+      display: inline-block
+      position: relative
+      &:not(:first-child)
+        margin-left: -5px
+    .opt_1
+      background-color: rgba(94, 79, 99, 0.85)
+      padding: 0 52px
+      h2
+        font: 30px $droid_normal
+        text-transform: uppercase
+        color: rgba(255, 255, 255, 1)
+        line-height: 55px
+        display: inline-block
+    .opt_2
+      background: $light_blue
+      padding: 0 15px
+      .box_icon
+        display: inline-block
+        width: 24px
+        height: 25px
+        background: url("../img/main_sprite.png") no-repeat
+        background-position: -1px 0
+    .opt_3
+      background: $light_vinous
+      padding: 0 14px
+      cursor: pointer
+      .basket_icon
+        display: inline-block
+        width: 28px
+        height: 25px
+        background: url("../img/main_sprite.png") no-repeat
+        background-position: -28px 0
+      .basket_tooltip
+        position: absolute
+        top: -45px
+        left: 0px
+        background: $white
+        color: $text_black
+        border-radius: 5px
+        border: 1px solid $light_vinous
+        font: 13px $droid_normal
+        height: 37px
+        line-height: 37px
+        width: 110px
+        text-align: center
+        margin-left: -23px
+        &:before
+          position: absolute
+          left: 50%
+          top: 37px
+          content: ''
+          width: 0px
+          height: 0px
+          border-top: 8px solid red
+          border-left: 8px solid transparent
+          border-right: 8px solid transparent
+          margin-left: -8px
+        &:after
+          position: absolute
+          left: 50%
+          top: 37px
+          content: ''
+          width: 0px
+          height: 0px
+          border-top: 6px solid white
+          border-left: 6px solid transparent
+          border-right: 6px solid transparent
+          margin-left: -6px
+    .opt_4
+      background-color: rgba(94, 79, 99, 0.85)
+      padding: 0 24px
+      h2
+        display: inline-block
+        .main_price
+          color: rgba(255, 255, 255, 1)
+          font: 24px $droid_normal
+        .remainder_price
+          color: rgba(255, 255, 255, 1)
+          font: 12px $droid_normal
+          vertical-align: text-top
+          line-height: 8px
+
+
+
+
+

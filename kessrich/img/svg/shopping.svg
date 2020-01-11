@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg6907"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="37.642185"
+   height="37.721149"
+   viewBox="0 0 37.642185 37.721149"
+   sodipodi:docname="shopping.svg">
+  <metadata
+     id="metadata6913">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6911" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="801"
+     inkscape:window-height="864"
+     id="namedview6909"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="8.5503906"
+     inkscape:cx="18.830034"
+     inkscape:cy="18.898097"
+     inkscape:window-x="0"
+     inkscape:window-y="232"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6907" />
+  <image
+     width="40"
+     height="40"
+     preserveAspectRatio="none"
+     xlink:href="file:///E:/WebServers/home/localhost/www/front-end/verstka/ecommerce/kessrich/img/icons/shopping.png"
+     id="image6915"
+     x="-1.1699656"
+     y="-1.1769485"
+     sodipodi:absref="E:\WebServers\home\localhost\www\front-end\verstka\ecommerce\kessrich\img\icons\shopping.png" />
+  <path
+     style="fill:#b7b7b7"
+     d="M 11.330034,35.933008 C 1.529164,31.409614 -2.632135,20.753022 1.7200776,11.323051 c 6.9679011,-15.0974015 27.2520124,-15.0974015 34.2199134,0 4.452858,9.648041 -0.119941,20.681438 -10.341486,24.952272 -4.86517,2.032798 -9.355721,1.925065 -14.268471,-0.342315 z M 26.568828,25.573051 c 0.541026,-0.6875 1.242834,-2.9375 1.559574,-5 0.430092,-2.800606 0.226364,-3.75 -0.804702,-3.75 -0.759327,0 -2.178058,-1.35 -3.152737,-3 -2.408141,-4.0766565 -4.996426,-4.1682715 -2.893899,-0.102433 l 1.49839,2.897567 -3.93913,0.375657 c -3.87477,0.369518 -3.915171,0.339089 -2.47271,-1.862384 0.806531,-1.230922 1.46642,-2.703873 1.46642,-3.273224 0,-2.0755225 -1.98768,-0.959686 -3.5,1.964817 -0.853248,1.65 -2.186512,3 -2.96281,3 -1.066722,0 -1.270795,0.915887 -0.835558,3.75 0.857232,5.581994 1.797609,6.25 8.798368,6.25 3.812791,0 6.639192,-0.488065 7.238794,-1.25 z M 14.496701,24.156384 c -1.03737,-1.03737 -0.783835,-4.333333 0.333333,-4.333333 0.55,0 1,1.125 1,2.5 0,2.61806 -0.230992,2.935674 -1.333333,1.833333 z m 4.528282,-1.833333 c 0.02038,-1.65 0.244498,-2.203936 0.498042,-1.230968 0.253543,0.972967 0.236869,2.322967 -0.03705,3 -0.273927,0.677032 -0.481372,-0.119032 -0.460992,-1.769032 z m 3.805051,0 c 0,-1.375 0.45,-2.5 1,-2.5 0.55,0 1,1.125 1,2.5 0,1.375 -0.45,2.5 -1,2.5 -0.55,0 -1,-1.125 -1,-2.5 z"
+     id="path7457"
+     inkscape:connector-curvature="0" />
+</svg>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg5803"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="37.642185"
+   height="37.721149"
+   viewBox="0 0 37.642185 37.721149"
+   sodipodi:docname="phone.svg">
+  <metadata
+     id="metadata5809">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5807" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="810"
+     inkscape:window-height="860"
+     id="namedview5805"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="8.7578125"
+     inkscape:cx="18.830034"
+     inkscape:cy="18.898097"
+     inkscape:window-x="0"
+     inkscape:window-y="232"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5803" />
+  <image
+     width="40"
+     height="40"
+     preserveAspectRatio="none"
+     xlink:href="file:///E:/WebServers/home/localhost/www/front-end/verstka/ecommerce/kessrich/img/icons/phone.png"
+     id="image5811"
+     x="-1.1699656"
+     y="-1.1769485"
+     sodipodi:absref="E:\WebServers\home\localhost\www\front-end\verstka\ecommerce\kessrich\img\icons\phone.png" />
+  <path
+     style="fill:#b7b7b7"
+     d="M 11.330034,35.933008 C 1.529164,31.409614 -2.632135,20.753022 1.7200776,11.323051 c 6.9679011,-15.0974015 27.2520124,-15.0974015 34.2199134,0 4.452858,9.648041 -0.119941,20.681438 -10.341486,24.952272 -4.86517,2.032798 -9.355721,1.925065 -14.268471,-0.342315 z m 13.021598,-6.68723 c 3.442699,-1.633668 6.478402,-6.517635 6.478402,-10.422727 0,-3.905092 -3.035703,-8.789059 -6.478402,-10.4227265 C 20.188934,6.4249952 17.50283,6.4099545 13.437226,8.3392099 4.8431237,12.417378 4.7473662,25.06115 13.278695,29.271592 c 3.932152,1.940624 6.943772,1.933603 11.072937,-0.02581 z M 12.496701,25.156384 c -1.782348,-1.782347 -0.405057,-5.830237 3.215686,-9.450979 4.15203,-4.15203 8.672855,-5.205038 9.794749,-2.281428 0.772813,2.013917 -1.513766,3.574235 -4.286751,2.925199 -2.377486,-0.556466 -5.993301,2.689265 -4.923765,4.41981 1.626982,2.632513 -1.706248,6.48107 -3.799919,4.387398 z"
+     id="path6353"
+     inkscape:connector-curvature="0" />
+</svg>

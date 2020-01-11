@@ -1,0 +1,855 @@
+
+/* color variables */
+$white: #ffffff;
+$black: #000000;
+$light-gray: #f1f1f1;
+$light-brown: #d1b792;
+$light-green: #a1cfb8;
+$light-black: #444444;
+$light-yellow: #d1b792;
+$text-color: #555555;
+$radius3: 3px;
+$radius5: 5px;
+$radius7: 7px;
+
+@mixin title{
+  text-transform: uppercase;
+  color: $light-black;
+  font-family: "open_sansbold";
+  font-size: 22px;
+}
+@mixin borderRadius($radius3){
+  -webkit-border-radius: $radius3;
+  -moz-border-radius: $radius3;
+  -ms-border-radius: $radius3;
+  -o-border-radius: $radius3;
+  border-radius: $radius3;
+}
+
+@mixin buyNow{
+  background: $light-black;
+  color: $white;
+  padding: 7px 10px;
+  @include borderRadius($radius7);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@mixin addCart{
+  background: $light-green;
+  color: $white;
+  @include borderRadius($radius3);
+  text-transform: uppercase;
+}
+
+@mixin footerTitle{
+  color: $light-yellow;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+@mixin price{
+  color: $light-black;
+  font-family: "open_sansbold";
+}
+@mixin brownBottomBorder($radius3){
+  border-bottom: $radius3 solid $light-brown;
+}
+
+@media (max-width: 1200px) {
+
+    .container{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .wrapper{
+        .endPoint{
+          ul{
+            li{
+            }
+          }
+        }
+        header{
+            .hContact{
+                .hContactInfo{
+                    .workingTime, .callUs, .shoppingCart{
+                        width: 31.9%;
+                    }
+                }
+            }
+        }
+        .main{
+            margin-right: 273px;
+        }
+        .topContent{
+            .topItems{
+              width: 23%;
+              margin-right: 5px;
+              margin-left: 10px;
+            }
+        }
+        .content{
+            .cProducts{
+                padding-left: 10px;
+                .fProducts{
+                    h2{
+                      margin: 30px 0 40px 0;
+                    }
+                }
+                .newProducts{
+                    .item{
+                      padding: 10px 5px;
+                      display: inline-block;
+                    }
+                }
+            }
+        }
+        .cSidebar{
+            width: 253px;
+            h2{
+                margin: 0 0 10px 0;
+            }
+            .cSellers{
+                ul{
+                    li{
+                        .itemDesc{
+                            margin-left: 85px;
+                        }
+                    }
+                }
+
+            }
+            .cLinks{
+                margin-bottom: 25px;
+            }
+            .wishList, .tags, .newsletter{
+                margin-bottom: 15px;
+            }
+            .wishList h2, .tags h2, .newsletter h2{
+                margin: 0 0 8px 0;
+            }
+            .wishList{
+                a{
+                  padding-right: 15px;
+                }
+            }
+        }
+
+    }
+
+    footer{
+        padding: 20px 0 0 10px;
+        .endPoint{
+            padding: 22px 10px 20px 10px;
+        }
+    }
+
+}
+@media (max-width: 1024px) {
+
+    .container{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .wrapper{
+
+      .endPoint{
+        ul{
+          li{
+          }
+        }
+      }
+      header{
+        .hContact{
+            .hContactInfo{
+                .workingTime, .callUs, .shoppingCart{
+                    width: 31%;
+                }
+            }
+        }
+        .hNav{
+            .nav{
+                li{
+                    a{
+                        padding: 16px 15px 19px 15px;
+                    }
+                }
+            }
+        }
+      }
+      .main{
+        margin-right: 283px;
+      }
+      .content{
+        .cProducts{
+          padding-left: 10px;
+          .fProducts{
+            h2{
+              margin: 30px 0 40px 0;
+            }
+          }
+          .newProducts{
+            .item{
+              padding: 10px 4px;
+              display: inline-block;
+              width: 100%;
+            }
+          }
+        }
+      }
+      .cSidebar{
+        width: 263px;
+        float: right;
+      }
+
+    }
+
+    footer, .push{
+      height: 317px;
+    }
+
+}
+@media (max-width: 992px) {
+
+    .wrapper {
+        margin: 0 auto;
+        padding-bottom: 120px;
+        .endPoint {
+            ul {
+                padding-left: 10px;
+            }
+        }
+        header {
+            .hContact {
+                .logo{
+                    width: 220px;
+                    h1{
+                        font-size: 24px;
+                    }
+                }
+                .hContactInfo {
+                    margin-left: 230px;
+                    padding-top: 2px;
+                    .workingTime, .callUs, .shoppingCart {
+                        width: 32%;
+                    }
+                    div .info {
+                      margin-left: 10px;
+                      float: right;
+                    }
+                }
+            }
+            .hNav {
+                .nav{
+                    li{
+                        a{
+                            padding: 16px 8px 19px 8px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+                .hSearch{
+                    padding-right: 13px;
+                    input{
+                        font-size: 14px;
+                        width: 140px;
+                        padding: 20px 18px 19px 12px;
+                    }
+                }
+            }
+        }
+        .main {
+            margin-right: 260px;
+        }
+        .cSidebar {
+            width: 250px;
+            float: right;
+            .cLinks{
+                ul{
+                    li {
+                       margin-bottom: 5px;
+                    }
+                }
+            }
+            .cSellers{
+                margin-bottom: 15px;
+                h2{
+                    margin: 0 0 10px 0;
+                }
+                ul{
+                    li{
+                        margin: 0 -10px 8px 0;
+                    }
+                }
+            }
+        }
+      .slider .carousel .slideDescription {
+        width: 310px;
+        position: absolute;
+        top: 25%;
+        right: 50px;
+        .slideTitle{
+          padding: 5px 3px 5px 3px;
+          font-size: 14px;
+        }
+        .slideSubTitle{
+          font-size: 14px;
+        }
+      }
+      .topContent{
+        .topItems{
+          width: 22%;
+          margin-right: 10px;
+        }
+      }
+
+      .content{
+        .cProducts{
+
+          .newProducts{
+            .item{
+              .new, .sale {
+                right: 15px;
+                top: 15px;
+                font-size: 28px;
+              }
+              .itemDesc{
+                padding: 9px 5px 6px 5px;
+                font-size: 12px;
+              }
+            }
+          }
+
+          .fProducts{
+            ul{
+              li {
+                .item{
+                  padding: 10px 5px;
+                  .new, .sale{
+                    right: 15px;
+                    top: 15px;
+                    font-size: 28px;
+                  }
+                  .itemDesc{
+                    .proPrice{
+                      margin: 10px 0;
+                    }
+                    .addCard{
+                      padding: 9px 5px 6px 5px;
+                      font-size: 12px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+    footer, .push{
+        height: auto;
+    }
+    footer{
+        .endPoint {
+            background: none;
+            display: inline-block;
+            position: relative;
+            padding: 22px 0 20px 0;
+            ul{
+                li{
+                    a{
+                        padding: 0px 5px 3px 5px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media (max-width: 767px){
+
+    .wrapper {
+        margin: 0 auto;
+        padding-bottom: 5px;
+        header {
+            .hContact {
+                padding: 20px 0 20px 0;
+                .logo{
+                    width: 100%;
+                    display: block;
+                    float: none;
+                    h1{
+                        font-size: 24px;
+                        text-align: center;
+                    }
+                }
+                .hContactInfo {
+                    margin-left: 0;
+                    padding-top: 2px;
+                    padding-left: 10px;
+                    margin-top: 20px;
+                    .workingTime, .callUs, .shoppingCart {
+                        width: 32%;
+                        text-align: center;
+                    }
+                    div{
+                        .info {
+                            margin-left: 0;
+                            float: none;
+                            margin-bottom: 7px;
+                        }
+                        i{
+                            float: none;
+                        }
+                    }
+                }
+            }
+
+            .hNav {
+                position: relative;
+                background: transparent;
+                z-index: 99;
+                .menuBtn{
+                  display: block;
+                  span{
+                    display: block;
+                  }
+                }
+                .abs{
+                  position: absolute;
+                  width: 100%;
+                  top: 60px;
+                  display: none;
+                  border-bottom: 5px solid #baa07a;
+                  .nav{
+                    float: none;
+                    li{
+                      display: block;
+                      background: #d1b792;
+                      text-align: center;
+                    }
+                  }
+
+                  .hSearch{
+                    background: #d1b792;
+                    padding: 0;
+                    float: none;
+                    text-align: center;
+                    input{
+                      width: 326px;
+                      padding: 15px 18px 15px 12px;
+                    }
+                    button{
+                      margin-left: -56px;
+                      border-radius: 0;
+                      border: none;
+                      width: 50px;
+                      height: 47px;
+                      border: 1px solid $white;
+                      border-radius: 0;
+                      box-shadow: none;
+                      .circle{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 0;
+                      }
+                      i{
+                        right: 13px;
+                        top: 14px;
+                      }
+                    }
+                  }
+                }
+
+
+            }
+
+        }
+
+        .main {
+            margin-right: 10px;
+        }
+        .cSidebar {
+            display: none;
+        }
+
+        .slider .carousel .slideDescription {
+          width: 230px;
+          position: absolute;
+          top: 25%;
+          right: 50px;
+          .slideTitle{
+
+          }
+          .slideSubTitle{
+            display: none;
+          }
+          p{
+            display: none;
+          }
+        }
+        .topContent{
+          .topItems{
+            width: 45%;
+          }
+        }
+
+        .content{
+            .cProducts{
+                .newProducts{
+                    .item{
+                      display: block;
+                      width: 90%;
+                      margin: 0 auto;
+                      .new, .sale {
+                        right: 30px;
+                        top: 20px;
+                        font-size: 28px;
+                      }
+                      .itemDesc{
+                        .itemTitle{
+                          font-size: 14px;
+                        }
+                        .proPrice{
+                          font-size: 18px;
+                        }
+                        .sCard{
+                          padding: 10px 9px 10px 8px;
+                        }
+                        a{
+                          padding: 10px 15px 9px 15px;
+                        }
+                      }
+                    }
+                }
+                .fProducts{
+                    ul{
+                        li {
+                            .item{
+                              padding: 10px 10px;
+                              .itemDesc{
+                                span{
+                                  font-size: 14px;
+                                }
+                                .proCard{
+                                  display: block;
+                                  border-radius: 3px;
+                                  margin: 5px 0;
+                                }
+                                .addCard{
+                                  display: block;
+                                  margin-left: 0;
+                                  text-align: center;
+                                }
+                              }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    footer{
+        .footerContent{
+            .container{
+                div{
+                    span{
+                        font-size: 12px;
+                    }
+                    ul{
+                        li{
+                            font-size: 10px;
+                            overflow: hidden;
+                            word-wrap: break-word;
+                            a{
+                                font-size: 10px;
+                                overflow: hidden;
+                                word-wrap: break-word;
+                                i{
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .contactUs, .store, .information{
+              float: left;
+              width: 28%;
+            }
+            .store{
+              float: left;
+              width: 23%;
+            }
+            .myAccount{
+              float: right;
+              width: 25%;
+              padding-left: 20px;
+            }
+        }
+        .endPoint {
+            padding: 12px 0 15px 0;
+            .copyRight{
+                float: none;
+                display: block;
+            }
+            .footerNav{
+                float: none;
+                display: block;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .wrapper {
+        margin: 0 auto;
+        padding-bottom: 15px;
+
+        header {
+            .hContact {
+                padding: 10px 0 10px 0;
+                .logo{
+                    width: 100%;
+                    display: block;
+                    float: none;
+                    h1{
+                        font-size: 24px;
+                    }
+                }
+                .hContactInfo {
+                    margin-left: 0;
+                    padding-top: 2px;
+                    padding-left: 10px;
+                    margin-top: 10px;
+                    .workingTime, .callUs, .shoppingCart {
+                      width: 32%;
+                      text-align: center;
+                    }
+                    div{
+                        i{
+                            float: none !important;
+                        }
+                        .info {
+                            margin-left: 5px;
+                            margin-bottom: 7px;
+                            float: none;
+                            height: 50px;
+                        }
+                    }
+
+                }
+            }
+            .hNav {
+                position: relative;
+                background: transparent;
+                z-index: 99;
+                .menuBtn{
+                  display: block;
+                  span{
+                    display: block;
+                  }
+                }
+                .abs{
+                    position: absolute;
+                    width: 100%;
+                    top: 60px;
+                    display: none;
+                    .nav{
+                        float: none;
+                        li{
+                          display: block;
+                          background: #d1b792;
+                          text-align: center;
+                        }
+                    }
+
+                    .hSearch{
+                      background: #d1b792;
+                      padding: 0;
+                      float: none;
+                      text-align: center;
+                      input{
+                        width: 300px;
+                        padding: 15px 18px 15px 12px;
+                      }
+                      button{
+                        margin-left: -56px;
+                        border-radius: 0;
+                        border: none;
+                        width: 50px;
+                        height: 47px;
+                        border: 1px solid $white;
+                        border-radius: 0;
+                        box-shadow: none;
+                        .circle{
+                          width: 100%;
+                          height: 100%;
+                          border-radius: 0;
+                        }
+                        i{
+                            right: 13px;
+                            top: 14px;
+                        }
+                      }
+                    }
+                }
+            }
+        }
+
+        .main {
+            margin-right: 10px;
+        }
+
+
+      .slider .carousel{
+        .owl-prev, .owl-next{
+          top: 65%;
+        }
+        .slideDescription {
+          display: none;
+        }
+      }
+      .topContent{
+        margin: 20px 0 15px 0;
+        .topItems{
+          display: block;
+          width: 80%;
+          margin: 5px auto 5px auto;
+          &:last-child{
+            margin: 5px auto 5px auto;
+          }
+          a{
+            padding: 3px 5px;
+            @include borderRadius($radius5);
+            font-size: 10px;
+            text-transform: uppercase;
+            top: 68%;
+            left: 3%;
+          }
+        }
+      }
+
+      .content{
+
+        .cProducts{
+
+          .newProducts{
+            .item{
+              display: block;
+              width: 90%;
+              margin: 0 auto;
+              img{
+                display: block;
+                width: 90%;
+                margin: 0 auto;
+              }
+              .new, .sale {
+                font-size: 22px;
+                right: 55px;
+                top: 20px;
+                font-size: 40px;
+              }
+              .itemDesc{
+                .sCard{
+                  display: block;
+                  border-radius: 3px;
+                  margin: 5px 0;
+                }
+                a{
+                  display: block;
+                  border-radius: 3px;
+                  margin-left: 0;
+                  width: 100%;
+                }
+              }
+            }
+          }
+          .fProducts{
+            ul{
+              li {
+                width: 45%;
+                margin: 0 2.5% 22px 2.5%;
+                &:nth-child(2), &:nth-child(5){
+                  margin: 0 2.5% 22px 2.5%;
+                }
+                &:first-child{
+
+                }
+                &:nth-child(4n) {
+
+                }
+                &:nth-child(5n) {
+
+                }
+                .item{
+                  padding: 10px 10px;
+                  .new, .sale{
+                    font-size: 18px;
+                  }
+                  .itemDesc{
+                    span{
+                      font-size: 14px;
+                    }
+                    .proCard{
+                      display: block;
+                      border-radius: 3px;
+                      margin: 5px 0;
+                    }
+                    .addCard{
+                      display: block;
+                      border-radius: 3px;
+                      margin-left: 0;
+                      width: 100%;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+    footer{
+      padding: 15px 0 10px 0;
+        .footerContent{
+            display: none;
+        }
+        .endPoint {
+            display: block;
+          margin: 0 auto;
+            padding: 12px 0 15px 0;
+
+            .copyRight{
+                float: none;
+                display: block;
+                margin: 5px 0;
+              text-align: center;
+            }
+            .footerNav{
+                float: none;
+                ul{
+                    li{
+                      display: block;
+                      float: none;
+                      text-align: center;
+                      a{
+                        font-size: 14px;
+                        color: $light-yellow;
+                      }
+                    }
+                }
+            }
+
+        }
+    }
+
+}

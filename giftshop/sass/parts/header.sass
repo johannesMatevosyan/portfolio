@@ -1,0 +1,309 @@
+body
+  background: $white
+  color: $white
+  font: 16px $lato_normal
+
+.clear
+  clear: both
+
+.wrapper
+  width: 1170px
+  margin: 0 auto
+  header
+    .header_top
+      text-align: right
+      ul
+        overflow: hidden
+        display: inline-block
+        li
+          float: left
+          padding-right: 2px
+          padding: 19px 17px 5px 17px
+          &:first-child
+            padding: 19px 17px 5px 0px
+          &:last-child
+            padding: 19px 0 5px 12px
+          a
+            font: 17px $lato_normal
+            line-height: 17px
+            +top_nav_item
+            &:hover
+              text-decoration: underline
+    .header_content
+      .logo
+        float: left
+        width: 190px
+        text-align: center
+        img
+          margin-top: -20px
+      .entry_items
+        height: 89px
+        width: calc(100% - 190px)
+        float: right
+        text-align: right
+        overflow: hidden
+        background: $nav_bg_gray
+        ul
+          display: inline-block
+          li
+            float: left
+            margin-right: 5px
+            &:last-child
+              margin-right: 0
+            a
+              +nav_item(89px, 89px)
+              width: 116px
+              &.blue
+                background: $light_blue
+                &:hover
+                  background: $light_vinous
+                  color: $white
+              &.vinous
+                background: $light_vinous
+                &:hover
+                  background: $light_blue
+                  color: $white
+              .box_icon
+                display: inline-block
+                vertical-align: sub
+                margin-left: 10px
+                width: 24px
+                height: 25px
+                background: url("../img/main_sprite.png") no-repeat
+                background-position: -1px 0
+              .basket_icon
+                display: inline-block
+                vertical-align: sub
+                margin-left: 10px
+                width: 28px
+                height: 25px
+                background: url("../img/main_sprite.png") no-repeat
+                background-position: -28px 0
+            a.box_icon_link
+              width: 142px
+            a.basket_icon_link
+              width: 142px
+
+    .navigation
+      margin-top: 12px
+      background: $light_blue
+      .nav_media
+        display: none
+      ul.nav_items
+        width: 84%
+        margin: 0 auto
+        display: table
+        & > li
+          display: table-cell
+          position: relative
+          background: $light_blue
+          &:hover a
+            background: $white
+            color: $light_vinous
+          & > a
+            +nav_item(70px, 72px)
+            padding: 0 24px
+          .wrap_dropdown
+            display: none
+            width: 276px
+            padding-top: 5px
+            z-index: 99
+            position: absolute
+            top: 70px
+            left: 0px
+            .dropdown_items
+              padding: 10px 18px
+              background: rgba(242, 242, 247, 0.9)
+              border: 1px solid #dbdbdb
+              overflow: hidden
+              +box_shadow(0, 0, 2px, 2px, rgba(223, 223, 223, 0.7))
+              li
+                display: block
+                width: 245px
+                padding: 15px 0 18px 0
+                border-bottom: 1px solid $border_gray
+                img
+                  display: inline-block
+                  vertical-align: middle
+                  margin: 0 8px 0 0
+                  width: 72px
+                  height: 76px
+                .dropdown_desc
+                  display: inline-block
+                  vertical-align: middle
+                  margin-left: -4px
+                  width: 155px
+                  h4
+                    a.title_link
+                      background: transparent
+                      text-decoration: none
+                      font: $base_font16 $lato_normal
+                      color: $light_vinous
+                  span
+                    display: inline-block
+                    margin: 4px 0
+                    font: $dropdown_font14 $lato_normal
+                    color: $dropdown_black
+                    font: $dropdown_font14 $lato_bold
+                    line-height: 13px
+                  a.more_link
+                    width: 117px
+                    +nav_item(23px, 23px)
+                    font-size: 12px
+                    background-color: $light_blue
+                    color: $white
+                &:last-child
+                  border-bottom: none
+                  padding: 15px 0 8px 0
+                  a.see_all
+                    background: transparent
+                    text-decoration: none
+                    text-transform: capitalize
+                    font: $dropdown_font14 $lato_normal
+                    color: $light_vinous
+
+
+@media screen and (max-width: 1440px)
+  .wrapper
+    header
+      .header_top
+        ul
+          li
+            a
+              font: 14px $lato_normal
+      .header_content
+        .entry_items
+          height: 80px
+          width: 88%
+          ul
+            li
+              a
+                font: 14px $lato_normal
+                height: 80px
+                line-height: 80px
+        .logo
+          width: 12%
+          img
+            width: 100%
+      .navigation
+        margin-top: 10px
+        ul.nav_items
+          &>
+            li
+              &> a
+                font: 16px $lato_normal
+                height: 63px
+                line-height: 63px
+
+@media screen and (max-width: 1200px)
+  .wrapper
+    width: 100%
+@media screen and (max-width: 992px)
+  .wrapper
+    header
+      .header_content
+        .entry_items
+          height: 65px
+          ul
+            li
+              a
+                height: 64px
+                line-height: 64px
+        .logo
+          img
+            margin-top: -10px
+      .navigation
+        position: relative
+        border-bottom: 1px solid $border_gray
+        .nav_media
+          display: block
+          float: right
+          margin-right: 15px
+          background: $light_blue
+          color: $white
+          font-size: 42px
+          cursor: pointer
+          &:hover
+            color: #5d5b5b
+        ul.nav_items
+          display: none
+          width: 100%
+          margin: 0 auto
+          z-index: 9999
+          position: absolute
+          top: 50px
+          left: 0
+          > li
+            display: block
+            .wrap_dropdown
+              width: 100%
+              top: 57px
+              .dropdown_items
+                background: rgba(242, 242, 247, 1)
+                li
+                  width: 100%
+                  padding: 15px 0 15px 0
+                  text-align: center
+                  img
+                    margin: 0 12px 0 0
+                  .dropdown_desc
+                    width: 170px
+                    a.more_link
+                      margin: 0 auto
+
+@media screen and (max-width: 639px)
+  .wrapper
+    header
+      .header_top
+        ul
+          li
+            padding: 1px 1px 5px 1px
+            &:first-child
+              padding: 1px 1px 5px 1px
+            &:last-child
+              padding: 1px 1px 5px 1px
+            a
+              padding: 19px 5px 6px 5px
+              &.small_pd_l
+                padding: 19px 5px 6px 5px
+      .header_content
+        .entry_items
+          width: 86%
+          ul
+            li
+              margin-right: 2px
+              a
+                width: 65px
+                &.box_icon_link
+                  width: 120px
+                &.basket_icon_link
+                  width: 120px
+        .logo
+          width: 14%
+          img
+            margin-top: 0
+
+
+@media screen and (max-width: 480px)
+  .wrapper
+    header
+      .header_top
+        ul
+          li
+            a
+              font: 10px $lato_normal
+              padding: 19px 5px 6px 5px
+      .header_content
+        .entry_items
+          height: 50px
+          ul
+            li
+              a
+                width: 55px
+                height: 50px
+                line-height: 50px
+                &.box_icon_link
+                  width: 90px
+                &.basket_icon_link
+                  width: 80px
+

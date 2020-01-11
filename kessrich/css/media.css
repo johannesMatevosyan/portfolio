@@ -1,0 +1,454 @@
+/* color variables */
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+    margin: 0 auto; }
+
+  .wrapper header .hContact .hContactInfo .workingTime, .wrapper header .hContact .hContactInfo .callUs, .wrapper header .hContact .hContactInfo .shoppingCart {
+    width: 31.9%; }
+  .wrapper .main {
+    margin-right: 273px; }
+  .wrapper .topContent .topItems {
+    width: 23%;
+    margin-right: 5px;
+    margin-left: 10px; }
+  .wrapper .content .cProducts {
+    padding-left: 10px; }
+    .wrapper .content .cProducts .fProducts h2 {
+      margin: 30px 0 40px 0; }
+    .wrapper .content .cProducts .newProducts .item {
+      padding: 10px 5px;
+      display: inline-block; }
+  .wrapper .cSidebar {
+    width: 253px; }
+    .wrapper .cSidebar h2 {
+      margin: 0 0 10px 0; }
+    .wrapper .cSidebar .cSellers ul li .itemDesc {
+      margin-left: 85px; }
+    .wrapper .cSidebar .cLinks {
+      margin-bottom: 25px; }
+    .wrapper .cSidebar .wishList, .wrapper .cSidebar .tags, .wrapper .cSidebar .newsletter {
+      margin-bottom: 15px; }
+    .wrapper .cSidebar .wishList h2, .wrapper .cSidebar .tags h2, .wrapper .cSidebar .newsletter h2 {
+      margin: 0 0 8px 0; }
+    .wrapper .cSidebar .wishList a {
+      padding-right: 15px; }
+
+  footer {
+    padding: 20px 0 0 10px; }
+    footer .endPoint {
+      padding: 22px 10px 20px 10px; } }
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+    margin: 0 auto; }
+
+  .wrapper header .hContact .hContactInfo .workingTime, .wrapper header .hContact .hContactInfo .callUs, .wrapper header .hContact .hContactInfo .shoppingCart {
+    width: 31%; }
+  .wrapper header .hNav .nav li a {
+    padding: 16px 15px 19px 15px; }
+  .wrapper .main {
+    margin-right: 283px; }
+  .wrapper .content .cProducts {
+    padding-left: 10px; }
+    .wrapper .content .cProducts .fProducts h2 {
+      margin: 30px 0 40px 0; }
+    .wrapper .content .cProducts .newProducts .item {
+      padding: 10px 4px;
+      display: inline-block;
+      width: 100%; }
+  .wrapper .cSidebar {
+    width: 263px;
+    float: right; }
+
+  footer, .push {
+    height: 317px; } }
+@media (max-width: 992px) {
+  .wrapper {
+    margin: 0 auto;
+    padding-bottom: 120px; }
+    .wrapper .endPoint ul {
+      padding-left: 10px; }
+    .wrapper header .hContact .logo {
+      width: 220px; }
+      .wrapper header .hContact .logo h1 {
+        font-size: 24px; }
+    .wrapper header .hContact .hContactInfo {
+      margin-left: 230px;
+      padding-top: 2px; }
+      .wrapper header .hContact .hContactInfo .workingTime, .wrapper header .hContact .hContactInfo .callUs, .wrapper header .hContact .hContactInfo .shoppingCart {
+        width: 32%; }
+      .wrapper header .hContact .hContactInfo div .info {
+        margin-left: 10px;
+        float: right; }
+    .wrapper header .hNav .nav li a {
+      padding: 16px 8px 19px 8px;
+      font-size: 16px; }
+    .wrapper header .hNav .hSearch {
+      padding-right: 13px; }
+      .wrapper header .hNav .hSearch input {
+        font-size: 14px;
+        width: 140px;
+        padding: 20px 18px 19px 12px; }
+    .wrapper .main {
+      margin-right: 260px; }
+    .wrapper .cSidebar {
+      width: 250px;
+      float: right; }
+      .wrapper .cSidebar .cLinks ul li {
+        margin-bottom: 5px; }
+      .wrapper .cSidebar .cSellers {
+        margin-bottom: 15px; }
+        .wrapper .cSidebar .cSellers h2 {
+          margin: 0 0 10px 0; }
+        .wrapper .cSidebar .cSellers ul li {
+          margin: 0 -10px 8px 0; }
+    .wrapper .slider .carousel .slideDescription {
+      width: 310px;
+      position: absolute;
+      top: 25%;
+      right: 50px; }
+      .wrapper .slider .carousel .slideDescription .slideTitle {
+        padding: 5px 3px 5px 3px;
+        font-size: 14px; }
+      .wrapper .slider .carousel .slideDescription .slideSubTitle {
+        font-size: 14px; }
+    .wrapper .topContent .topItems {
+      width: 22%;
+      margin-right: 10px; }
+    .wrapper .content .cProducts .newProducts .item .new, .wrapper .content .cProducts .newProducts .item .sale {
+      right: 15px;
+      top: 15px;
+      font-size: 28px; }
+    .wrapper .content .cProducts .newProducts .item .itemDesc {
+      padding: 9px 5px 6px 5px;
+      font-size: 12px; }
+    .wrapper .content .cProducts .fProducts ul li .item {
+      padding: 10px 5px; }
+      .wrapper .content .cProducts .fProducts ul li .item .new, .wrapper .content .cProducts .fProducts ul li .item .sale {
+        right: 15px;
+        top: 15px;
+        font-size: 28px; }
+      .wrapper .content .cProducts .fProducts ul li .item .itemDesc .proPrice {
+        margin: 10px 0; }
+      .wrapper .content .cProducts .fProducts ul li .item .itemDesc .addCard {
+        padding: 9px 5px 6px 5px;
+        font-size: 12px; }
+
+  footer, .push {
+    height: auto; }
+
+  footer .endPoint {
+    background: none;
+    display: inline-block;
+    position: relative;
+    padding: 22px 0 20px 0; }
+    footer .endPoint ul li a {
+      padding: 0px 5px 3px 5px; } }
+@media (max-width: 767px) {
+  .wrapper {
+    margin: 0 auto;
+    padding-bottom: 5px; }
+    .wrapper header .hContact {
+      padding: 20px 0 20px 0; }
+      .wrapper header .hContact .logo {
+        width: 100%;
+        display: block;
+        float: none; }
+        .wrapper header .hContact .logo h1 {
+          font-size: 24px;
+          text-align: center; }
+      .wrapper header .hContact .hContactInfo {
+        margin-left: 0;
+        padding-top: 2px;
+        padding-left: 10px;
+        margin-top: 20px; }
+        .wrapper header .hContact .hContactInfo .workingTime, .wrapper header .hContact .hContactInfo .callUs, .wrapper header .hContact .hContactInfo .shoppingCart {
+          width: 32%;
+          text-align: center; }
+        .wrapper header .hContact .hContactInfo div .info {
+          margin-left: 0;
+          float: none;
+          margin-bottom: 7px; }
+        .wrapper header .hContact .hContactInfo div i {
+          float: none; }
+    .wrapper header .hNav {
+      position: relative;
+      background: transparent;
+      z-index: 99; }
+      .wrapper header .hNav .menuBtn {
+        display: block; }
+        .wrapper header .hNav .menuBtn span {
+          display: block; }
+      .wrapper header .hNav .abs {
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        display: none;
+        border-bottom: 5px solid #baa07a; }
+        .wrapper header .hNav .abs .nav {
+          float: none; }
+          .wrapper header .hNav .abs .nav li {
+            display: block;
+            background: #d1b792;
+            text-align: center; }
+        .wrapper header .hNav .abs .hSearch {
+          background: #d1b792;
+          padding: 0;
+          float: none;
+          text-align: center; }
+          .wrapper header .hNav .abs .hSearch input {
+            width: 326px;
+            padding: 15px 18px 15px 12px; }
+          .wrapper header .hNav .abs .hSearch button {
+            margin-left: -56px;
+            border-radius: 0;
+            border: none;
+            width: 50px;
+            height: 47px;
+            border: 1px solid #ffffff;
+            border-radius: 0;
+            box-shadow: none; }
+            .wrapper header .hNav .abs .hSearch button .circle {
+              width: 100%;
+              height: 100%;
+              border-radius: 0; }
+            .wrapper header .hNav .abs .hSearch button i {
+              right: 13px;
+              top: 14px; }
+    .wrapper .main {
+      margin-right: 10px; }
+    .wrapper .cSidebar {
+      display: none; }
+    .wrapper .slider .carousel .slideDescription {
+      width: 230px;
+      position: absolute;
+      top: 25%;
+      right: 50px; }
+      .wrapper .slider .carousel .slideDescription .slideSubTitle {
+        display: none; }
+      .wrapper .slider .carousel .slideDescription p {
+        display: none; }
+    .wrapper .topContent .topItems {
+      width: 45%; }
+    .wrapper .content .cProducts .newProducts .item {
+      display: block;
+      width: 90%;
+      margin: 0 auto; }
+      .wrapper .content .cProducts .newProducts .item .new, .wrapper .content .cProducts .newProducts .item .sale {
+        right: 30px;
+        top: 20px;
+        font-size: 28px; }
+      .wrapper .content .cProducts .newProducts .item .itemDesc .itemTitle {
+        font-size: 14px; }
+      .wrapper .content .cProducts .newProducts .item .itemDesc .proPrice {
+        font-size: 18px; }
+      .wrapper .content .cProducts .newProducts .item .itemDesc .sCard {
+        padding: 10px 9px 10px 8px; }
+      .wrapper .content .cProducts .newProducts .item .itemDesc a {
+        padding: 10px 15px 9px 15px; }
+    .wrapper .content .cProducts .fProducts ul li .item {
+      padding: 10px 10px; }
+      .wrapper .content .cProducts .fProducts ul li .item .itemDesc span {
+        font-size: 14px; }
+      .wrapper .content .cProducts .fProducts ul li .item .itemDesc .proCard {
+        display: block;
+        border-radius: 3px;
+        margin: 5px 0; }
+      .wrapper .content .cProducts .fProducts ul li .item .itemDesc .addCard {
+        display: block;
+        margin-left: 0;
+        text-align: center; }
+
+  footer .footerContent .container div span {
+    font-size: 12px; }
+  footer .footerContent .container div ul li {
+    font-size: 10px;
+    overflow: hidden;
+    word-wrap: break-word; }
+    footer .footerContent .container div ul li a {
+      font-size: 10px;
+      overflow: hidden;
+      word-wrap: break-word; }
+      footer .footerContent .container div ul li a i {
+        margin-right: 5px; }
+  footer .footerContent .contactUs, footer .footerContent .store, footer .footerContent .information {
+    float: left;
+    width: 28%; }
+  footer .footerContent .store {
+    float: left;
+    width: 23%; }
+  footer .footerContent .myAccount {
+    float: right;
+    width: 25%;
+    padding-left: 20px; }
+  footer .endPoint {
+    padding: 12px 0 15px 0; }
+    footer .endPoint .copyRight {
+      float: none;
+      display: block; }
+    footer .endPoint .footerNav {
+      float: none;
+      display: block; } }
+@media (max-width: 480px) {
+  .wrapper {
+    margin: 0 auto;
+    padding-bottom: 15px; }
+    .wrapper header .hContact {
+      padding: 10px 0 10px 0; }
+      .wrapper header .hContact .logo {
+        width: 100%;
+        display: block;
+        float: none; }
+        .wrapper header .hContact .logo h1 {
+          font-size: 24px; }
+      .wrapper header .hContact .hContactInfo {
+        margin-left: 0;
+        padding-top: 2px;
+        padding-left: 10px;
+        margin-top: 10px; }
+        .wrapper header .hContact .hContactInfo .workingTime, .wrapper header .hContact .hContactInfo .callUs, .wrapper header .hContact .hContactInfo .shoppingCart {
+          width: 32%;
+          text-align: center; }
+        .wrapper header .hContact .hContactInfo div i {
+          float: none !important; }
+        .wrapper header .hContact .hContactInfo div .info {
+          margin-left: 5px;
+          margin-bottom: 7px;
+          float: none;
+          height: 50px; }
+    .wrapper header .hNav {
+      position: relative;
+      background: transparent;
+      z-index: 99; }
+      .wrapper header .hNav .menuBtn {
+        display: block; }
+        .wrapper header .hNav .menuBtn span {
+          display: block; }
+      .wrapper header .hNav .abs {
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        display: none; }
+        .wrapper header .hNav .abs .nav {
+          float: none; }
+          .wrapper header .hNav .abs .nav li {
+            display: block;
+            background: #d1b792;
+            text-align: center; }
+        .wrapper header .hNav .abs .hSearch {
+          background: #d1b792;
+          padding: 0;
+          float: none;
+          text-align: center; }
+          .wrapper header .hNav .abs .hSearch input {
+            width: 300px;
+            padding: 15px 18px 15px 12px; }
+          .wrapper header .hNav .abs .hSearch button {
+            margin-left: -56px;
+            border-radius: 0;
+            border: none;
+            width: 50px;
+            height: 47px;
+            border: 1px solid #ffffff;
+            border-radius: 0;
+            box-shadow: none; }
+            .wrapper header .hNav .abs .hSearch button .circle {
+              width: 100%;
+              height: 100%;
+              border-radius: 0; }
+            .wrapper header .hNav .abs .hSearch button i {
+              right: 13px;
+              top: 14px; }
+    .wrapper .main {
+      margin-right: 10px; }
+    .wrapper .slider .carousel .owl-prev, .wrapper .slider .carousel .owl-next {
+      top: 65%; }
+    .wrapper .slider .carousel .slideDescription {
+      display: none; }
+    .wrapper .topContent {
+      margin: 20px 0 15px 0; }
+      .wrapper .topContent .topItems {
+        display: block;
+        width: 80%;
+        margin: 5px auto 5px auto; }
+        .wrapper .topContent .topItems:last-child {
+          margin: 5px auto 5px auto; }
+        .wrapper .topContent .topItems a {
+          padding: 3px 5px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          border-radius: 5px;
+          font-size: 10px;
+          text-transform: uppercase;
+          top: 68%;
+          left: 3%; }
+    .wrapper .content .cProducts .newProducts .item {
+      display: block;
+      width: 90%;
+      margin: 0 auto; }
+      .wrapper .content .cProducts .newProducts .item img {
+        display: block;
+        width: 90%;
+        margin: 0 auto; }
+      .wrapper .content .cProducts .newProducts .item .new, .wrapper .content .cProducts .newProducts .item .sale {
+        font-size: 22px;
+        right: 55px;
+        top: 20px;
+        font-size: 40px; }
+      .wrapper .content .cProducts .newProducts .item .itemDesc .sCard {
+        display: block;
+        border-radius: 3px;
+        margin: 5px 0; }
+      .wrapper .content .cProducts .newProducts .item .itemDesc a {
+        display: block;
+        border-radius: 3px;
+        margin-left: 0;
+        width: 100%; }
+    .wrapper .content .cProducts .fProducts ul li {
+      width: 45%;
+      margin: 0 2.5% 22px 2.5%; }
+      .wrapper .content .cProducts .fProducts ul li:nth-child(2), .wrapper .content .cProducts .fProducts ul li:nth-child(5) {
+        margin: 0 2.5% 22px 2.5%; }
+      .wrapper .content .cProducts .fProducts ul li .item {
+        padding: 10px 10px; }
+        .wrapper .content .cProducts .fProducts ul li .item .new, .wrapper .content .cProducts .fProducts ul li .item .sale {
+          font-size: 18px; }
+        .wrapper .content .cProducts .fProducts ul li .item .itemDesc span {
+          font-size: 14px; }
+        .wrapper .content .cProducts .fProducts ul li .item .itemDesc .proCard {
+          display: block;
+          border-radius: 3px;
+          margin: 5px 0; }
+        .wrapper .content .cProducts .fProducts ul li .item .itemDesc .addCard {
+          display: block;
+          border-radius: 3px;
+          margin-left: 0;
+          width: 100%; }
+
+  footer {
+    padding: 15px 0 10px 0; }
+    footer .footerContent {
+      display: none; }
+    footer .endPoint {
+      display: block;
+      margin: 0 auto;
+      padding: 12px 0 15px 0; }
+      footer .endPoint .copyRight {
+        float: none;
+        display: block;
+        margin: 5px 0;
+        text-align: center; }
+      footer .endPoint .footerNav {
+        float: none; }
+        footer .endPoint .footerNav ul li {
+          display: block;
+          float: none;
+          text-align: center; }
+          footer .endPoint .footerNav ul li a {
+            font-size: 14px;
+            color: #d1b792; } }
+
+/*# sourceMappingURL=media.css.map */

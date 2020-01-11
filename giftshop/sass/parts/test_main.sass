@@ -1,0 +1,188 @@
+.wrapper
+  .gallery
+    margin-top: 15px
+    margin-bottom: 30px
+    .gal_row
+      margin-bottom: 4px
+      overflow: hidden
+      .gal_left
+        float: left
+        width: 664px
+        margin-right: 4px
+        &.top
+          .wrap_gal_item
+            position: relative
+            background-color: $black
+            &.h570
+              height: 570px
+              a
+                display: block
+                img
+                  width: 100% 
+                &:hover img
+                  opacity: 0.8
+              .gal_caption
+                +gal_caption_big
+              ul.gallery_item_options
+                +gallery_items_small
+        &.bottom
+          .search_product
+            background: $light_vinous
+            padding: 48px 52px 48px 57px
+            text-align: center
+            .wrap_input
+              position: relative
+              width: 570px
+              margin: 0 auto
+              text-align: left
+              .holder
+                position: absolute
+                top: 50%
+                margin-top: -10px
+                margin-left: 24px
+                z-index: 2
+                font: $base_font16 $droid_normal
+                color: $text_black
+                letter-spacing: 1px
+                .placeholder_gray
+                  color: $input_gray
+              #search_pro
+                display: inline-block
+                vertical-align: middle
+                margin-right: 18px
+                width: calc(100% - 113px)
+                height: 71px
+                background-color: white
+                box-shadow: 1px 1.7px 7px rgba(0, 0, 0, 0.19)
+                padding-left: 24px
+                font: $base_font16 $droid_normal
+                color: $text_black
+                border: 0px
+                outline: none
+              #search_pro:focus
+                &::-webkit-input-placeholder,
+                &:-moz-placeholder,
+                &::-moz-placeholder,
+                &:-ms-input-placeholder
+                  color:transparent
+              #search_pro_submit
+                display: inline-block
+                vertical-align: middle
+                width: 53px
+                height: 53px
+                background: url('../img/lope.png') no-repeat
+                background-size: cover
+                border: 1px solid $light_vinous
+                cursor: pointer
+                outline: none
+          .wrap_gal_item
+            position: relative
+            background-color: $black
+            &.h335
+              height: 335px
+              margin-top: 4px
+              a
+                display: block
+                img
+                  width: 100%
+                &:hover img
+                  opacity: 0.8
+              .gal_item_options
+                +gallery_items_medium
+
+      .gal_right
+        float: left
+        width: 500px
+        &.top
+          .wrap_gal_item
+            position: relative
+            background-color: $black
+            &.h320
+              height: 320px
+              a
+                display: block
+                img
+                  width: 100%
+                &:hover img
+                  opacity: 0.8
+              .gal_caption
+                +gal_caption_small
+              ul.gallery_item_options
+                +gallery_items_small
+            &.h245
+              height: 245px
+              margin-top: 4px
+              a
+                display: block
+                img
+                  width: 100%
+                &:hover img
+                  opacity: 0.8
+              .gal_caption
+                +gal_caption_small
+              ul.gallery_item_options
+                +gallery_items_small
+        &.bottom
+          .wrap_gal_item
+            position: relative
+            background-color: $black
+            &.h506
+              height: 506px
+              a
+                display: block
+                img
+                  width: 100%
+                &:hover img
+                  opacity: 0.8
+              .jewellery
+                background-color: rgba(94, 79, 99, 0.85)
+                position: absolute
+                padding: 0 15px 0 35px
+                right: -174px
+                bottom: 180px
+                height: 87px
+                line-height: 102px
+                -ms-transform: rotate(-90deg)
+                -webkit-transform: rotate(-90deg)
+                transform: rotate(-90deg)
+                .jewellery_title
+                  display: inline-block
+                  vertical-align: middle
+                  color: $white
+                  text-transform: uppercase
+                  font: 59px $aparaj_normal
+                  margin-right: 22px
+                .jew_arrow
+                  position: relative
+                  display: inline-block
+                  vertical-align: middle
+                  text-align: center
+                  margin: -25px 0 0 0
+                  height: 98px
+                  line-height: 98px
+                  width: 86px
+                  background: $light_vinous
+                  .jew_triangle
+                    position: absolute
+                    left: -11px
+                    top: 0
+                    display: inline-block
+                    vertical-align: middle
+                    width: 1px
+                    height: 1px
+                    border-bottom: solid 5px #c6535d
+                    border-right: solid 5px #c6535d
+                    border-left: solid 5px transparent
+                    border-top: solid 5px transparent
+                  .wrap_arrow
+                    display: inline-block
+                    vertical-align: middle
+                    border-radius: 50%
+                    width: 53px
+                    height: 53px
+                    line-height: 70px
+                    text-align: center
+                    background-color: $white
+                    i
+                      color: $light_vinous
+                      font-size: 42px

@@ -1,0 +1,291 @@
+.wrapper
+  footer
+    padding-bottom: 20px
+    .wrap_footer
+      padding: 48px 0 28px 19px
+      border-bottom: 1px solid $item_gray
+      h2.footer_col_title
+        color: $text_black
+        font: 25px $lato_normal
+        text-transform: uppercase
+        margin-bottom: 40px
+        letter-spacing: 0.6px
+      ul.footer_cols
+        display: table
+        width: 100%
+        li.footer_col_item
+          float: left
+          ul
+            margin-bottom: 18px
+            li.footer_nested_item
+              margin-bottom: 11px
+              &:last-child
+                margin-bottom: 0
+              a
+                color: $text_black
+                font: 16px $lato_normal
+                text-decoration: none
+                line-height: 1
+                &:hover
+                  text-decoration: underline
+          .subscription
+            margin-bottom: 25px
+            input[type='text']
+              display: block
+              height: 71px
+              line-height: 71px
+              width: 374px
+              background: $white
+              border: 1px solid $border_gray
+              outline: none
+              text-align: center
+              color: $text_black
+              font: $dropdown_font14 $droid_normal
+            input[type='submit']
+              display: block
+              height: 51px
+              line-height: 51px
+              width: 376px
+              background: $light_blue
+              border: 1px solid $light_blue
+              text-transform: uppercase
+              outline: none
+              color: $white
+              font: $dropdown_font14 $droid_normal
+              cursor: pointer
+              &:hover
+                background: $light_vinous
+                border: 1px solid $light_vinous
+          h2.footer_col_title_bottom
+            color: $text_black
+            font: 25px $lato_normal
+            font-weight: bold
+            text-transform: uppercase
+            margin-bottom: 13px
+            letter-spacing: 0.6px
+          ul.social_networks
+            li
+              float: left
+              margin-right: 11px
+              &:last-child
+                margin-right: 0
+              a
+                display: block
+                width: 54px
+                height: 54px
+                line-height: 62px
+                text-align: center
+                &.rss
+                  background-color: #f8bc2e
+                  color: $white
+                &.fb
+                  background-color: #39599f
+                  color: $white
+                &.tw
+                  background-color: #45b0e3
+                  color: $white
+                &.fl
+                  background-color: $white
+                  border: 1px solid $border_gray
+                  line-height: 55px
+                  height: 52px
+                &.g_plus
+                  background-color: #1872bf
+                  line-height: 65px
+                i
+                  font-size: 26px
+          &.about_us
+            padding-left: 35px
+          &.selling_with_us
+            padding-left: 106px
+          &.news_form
+            padding-left: 39px
+  .copy_right
+    padding: 25px 10px 22px 20px
+    border-bottom: 1px solid $item_gray
+    .copyright
+      float: left
+      color: $text_black
+      font: 14px $droid_normal
+    .author
+      float: right
+      color: $text_black
+      font: 14px $droid_normal
+      .name
+        color: $light_vinous
+        text-decoration: none
+
+@media screen and (max-width: 1440px)
+  .wrapper
+    footer
+      padding: 0 15px 20px 15px
+      .wrap_footer
+        ul.footer_cols
+          li.footer_col_item
+            &.about_us
+            padding-left: 30px
+            &.selling_with_us
+              padding-left: 50px
+            &.news_form
+              padding-left: 30px
+            ul.social_networks
+              li
+                a
+                  &.fl
+                    height: 52px
+
+
+
+@media screen and (max-width: 1200px)
+  .wrapper
+    footer
+      .wrap_footer
+        padding: 48px 0 28px 0px
+        h2.footer_col_title
+          font: 18px $lato_normal
+          margin-bottom: 32px
+        ul.footer_cols
+          li.footer_col_item
+            &.about_us
+            padding-left: 25px
+            &.selling_with_us
+              padding-left: 30px
+            &.news_form
+              padding-left: 25px
+            ul
+              li.footer_nested_item
+                margin-bottom: 12px
+            .subscription
+              input[type='text']
+                height: 57px
+                line-height: 57px
+                width: 360px
+              input[type='submit']
+                height: 45px
+                line-height: 45px
+                width: 363px
+
+@media screen and (max-width: 992px)
+  .wrapper
+    footer
+      .wrap_footer
+        padding: 55px 0 50px 0px
+        h2.footer_col_title
+          font: 14px $lato_normal
+          font-weight: bold
+          margin-bottom: 20px
+        ul.footer_cols
+          li.footer_col_item
+            padding: 0 10px
+            &.about_us
+            padding-left: 5px
+            &.selling_with_us
+              padding-left: 5px
+            &.news_form
+              padding-left: 5px
+            .subscription
+              margin-bottom: 25px
+            ul
+              li.footer_nested_item
+                margin-bottom: 6px
+                a
+                  font:  14px $droid_normal
+            .subscription
+              input[type='text']
+                height: 50px
+                line-height: 50px
+                width: 258px
+              input[type='submit']
+                height: 40px
+                line-height: 40px
+                width: 260px
+            ul.social_networks
+              li
+                a
+                  width: 43px
+                  height: 43px
+                  line-height: 53px
+                  &.fl
+                    height: 42px
+                    line-height: 47px
+                  &.g_plus
+                    background-color: #1872bf
+                    line-height: 58px
+
+@media screen and (max-width: 766px)
+  .wrapper
+    footer
+      .wrap_footer
+        padding: 25px 0 25px 0px
+        ul.footer_cols
+          li.footer_col_item
+            float: left
+            width: 49%
+            padding: 0
+            min-height: 270px
+            text-align: center
+            &.about_us
+              padding-left: 0px
+            &.selling_with_us
+              padding-left: 0px
+            &.news_form
+              padding-left: 0px
+            .subscription
+              margin-bottom: 25px
+              input[type='text']
+                width: 100%
+              input[type='submit']
+                width: 100%
+            ul.social_networks
+              li
+                margin-right: 2.5%
+                width: 18%
+                &:last-child
+                  margin-right: 0
+                a
+                  width: 100%
+
+@media screen and (max-width: 639px)
+  .wrapper
+    footer
+      padding: 0 15px 20px 15px
+      .wrap_footer
+        padding: 15px 0 15px 0px
+        ul.footer_cols
+          li.footer_col_item
+            float: none
+            width: 100%
+            &.about_us
+              min-height: 200px
+            &.selling_with_us
+              min-height: 145px
+            &.news_form
+              padding-left: 0px
+            .subscription
+              margin-bottom: 25px
+              input[type='text']
+                width: 80%
+                margin: 0 auto
+              input[type='submit']
+                width: 80%
+                margin: 0 auto
+            ul.social_networks
+              li
+                margin-right: 1.25%
+                width: 19%
+                &:last-child
+                  margin-right: 0
+                a
+                  width: 100%
+      .copy_right
+        padding: 15px 10px 15px 10px
+        .copyright
+          float: none
+          display: block
+          text-align: center
+          margin-bottom: 10px
+        .author
+          float: none
+          display: block
+          text-align: center
+
