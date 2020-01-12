@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Magazine</title>
+    <link rel="stylesheet" href="css/kGallery.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="libs/jquery-magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="libs/font-awesome-4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <span class="logo_top">The</span>
+                <span class="logo_bottom">News <span class="logo_red">Reporter</span></span>
+            </div>
+            <div class="nav_block">
+                <div class="social_icons">
+                    <ul>
+                        <li class="si"><a href="#" title="twitter"><img src="img/tw.png" alt="social icons"></a></li>
+                        <li class="si"><a href="#" title="facebook"><img src="img/fb.png" alt="social icons"></a></li>
+                        <li class="si"><a href="#" title="rss"><img src="img/rss.png" alt="social icons"></a></li>
+                        <li class="sl">
+                            <a href="#" title="likes"><img src="img/like.png" alt="social icons"></a>
+                            <span class="sl_tooltip">6</span>
+                        </li>
+                        <li class="sn">
+                            <a href="#" title="follows"><img src="img/plus_one.png" alt="social icons"></a>
+                            <span class="sn_tooltip">3</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_items">
+                    <div class="search_form">
+                        <form action="/" method="post">
+                            <input id="input_search" name="search_filed" type="text" value=""/>
+                            <button id="submit_search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                    <ul>
+                        <li><a href="#" title="item1">Home</a></li>
+                        <li><a href="#" title="item2">About Us</a></li>
+                        <li><a href="#" title="item3">Contact Us</a></li>
+                        <li><a href="#" title="item4">Subscribe</a></li>
+                        <li><a href="#" title="item5">Login</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="clear"></div>
+            <nav class="main_nav">
+                <a class="vertical_sidebar">
+                    <i class="fa fa-caret-square-o-down" aria-hidden="true"></i>
+                </a>
+                <a class="main_menu">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+                <ul>
+                    <li><a href="#" title="World News">World News</a></li>
+                    <li><a href="#" title="Sports">Sports</a></li>
+                    <li><a href="#" title="Tech">Tech</a></li>
+                    <li><a href="#" title="Business">Business</a></li>
+                    <li><a href="#" title="Movies">Movies</a></li>
+                    <li><a href="#" title="Entertainment">Entertainment</a></li>
+                    <li><a href="#" title="Culture">Culture</a></li>
+                    <li><a href="#" title="Books">Books</a></li>
+                    <li><a href="#" title="Classifields">Classifields</a></li>
+                    <li><a href="#" title="Blogs">Blogs</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav> <!--.main_nav-->
+        </header>
+        <div class="main">
+            <div id="main_sidebar" class="sidebar" style="width: 250px;">
+                <div class="video_news">
+                    <ul class="play">
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=M2j_Ka3XTgA" class="call_video" sandbox>
+                                <img src="http://img.youtube.com/vi/M2j_Ka3XTgA/0.jpg" class="youtube_thumbnail" alt="youtube thumbnail">
+                            <!--    <iframe class="youtube_player" src="https://www.youtube.com/embed/M2j_Ka3XTgA" frameborder="0"></iframe>-->
+                                <span class="video_desc">Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=M2j_Ka3XTgA" class="call_video">
+                                <img src="http://img.youtube.com/vi/M2j_Ka3XTgA/1.jpg" class="youtube_thumbnail" alt="youtube thumbnail">
+                                <span class="video_desc">Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=WJ9_vW6FcTs" class="call_video">
+                                <img src="http://img.youtube.com/vi/WJ9_vW6FcTs/2.jpg" class="youtube_thumbnail" alt="youtube thumbnail">
+                                <span class="video_desc">Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=VTLzRHrGHds" class="call_video">
+                                <img src="http://img.youtube.com/vi/VTLzRHrGHds/3.jpg" class="youtube_thumbnail" alt="youtube thumbnail">
+                                <span class="video_desc">Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" class="more_plus">more +</a>
+                </div>
+
+                <!--.play-->
+                <div class="advertise">
+                    <img src="img/add.jpg" alt="advertise">
+                </div>
+                <!--.advertise-->
+                <div class="sign_up_newsletter">
+                    <h2>Sign Up for Newsletter</h2>
+                    <span class="newsletter_subtitle">Sign up to receive our free newsletters!</span>
+                    <form>
+                        <input type="text" name="sign_up_name" value="Name"/>
+                        <input type="text" name="sign_up_email" value="Email Address"/>
+                        <input type="submit" value="Submit">
+                    </form>
+                    <span class="sing_up_note">We do not spam. We value your privacy!</span>
+                    <!-- /.sing_up_note -->
+                </div>
+                <!--.sign_up_newsletter-->
+                <div class="popular">
+                    <span class="most_read">Most read</span>
+                    <span class="popular_links">Popular</span>
+                </div>
+                <ul class="popular_articles">
+                    <li>
+                        <time>Sept 24th 2011</time>
+                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#">Read more</a></p>
+                    </li>
+                    <li>
+                        <time>Sept 24th 2011</time>
+                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#">Read more</a></p>
+                    </li>
+                    <li>
+                        <time>Sept 24th 2011</time>
+                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#">Read more</a></p>
+                    </li>
+                    <li>
+                        <time>Sept 24th 2011</time>
+                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#">Read more</a></p>
+                    </li>
+                    <li>
+                        <time>Sept 24th 2011</time>
+                        <p>Lorem ipsum dolor sit amet conse ctetur adipiscing elit <a href="#">Read more</a></p>
+                    </li>
+                </ul>
+                <!-- /.popular -->
+                <a href="#" class="more_plus">more +</a>
+                <div class="discount">
+                    <img src="img/discount.jpg" alt="discount"/>
+                </div>
+            </div>
+            <div id="main_content" class="content">
+                <div id="gallery-wrapper">
+                    <span class="breaking_news">Breaking News</span>
+                </div>
+                <aside class="content_sidebar">
+                    <h2 class="main_title">From the desk</h2>
+                    <article class="widget">
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                        <p>
+                            Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.
+                        </p>
+                        <div class="widget_footer">
+                            <a href="#">Read More</a>
+                            <time class="widget_date">3 hours ago</time>
+                        </div>
+                    </article>
+                    <!-- /.article -->
+                    <article class="widget">
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                        <p>
+                            Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.
+                        </p>
+                        <div class="widget_footer">
+                            <a href="#">Read More</a>
+                            <time class="widget_date">3 hours ago</time>
+                        </div>
+                    </article>
+                    <!-- /.article -->
+                    <article class="widget">
+                        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                        <p>
+                            Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.
+                        </p>
+                        <div class="widget_footer">
+                            <a href="#">Read More</a>
+                            <time class="widget_date">3 hours ago</time>
+                        </div>
+                    </article>
+                    <!-- /.article -->
+                    <a href="#" class="more_plus">more +</a>
+
+                    <h2 class="main_title">Editorial</h2>
+                    <ul class="editorial_links">
+                        <li><a><img src="img/editorial-1.jpg" alt="sidebar gallery"></a><a href="#"><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span></a></li>
+                        <li><a><img src="img/editorial-2.jpg" alt="sidebar gallery"></a><a href="#"><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span></a></li>
+                        <li><a><img src="img/editorial-1.jpg" alt="sidebar gallery"></a><a href="#"><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span></a></li>
+                        <li><a><img src="img/editorial-2.jpg" alt="sidebar gallery"></a><a href="#"><span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span></a></li>
+                    </ul>
+                </aside>
+                <div class="content_main">
+                    <section class="main_news">
+                        <div class="section_title">
+                            <h2>from around the world</h2>
+                            <a href="#" class="more_plus">more +</a>
+                        </div>
+                        <div class="section_content">
+                            <ul class="three_col">
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-1.jpg" alt="article"/>
+                                    </a>
+                                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                                    <p>
+                                        Nulla quis lorem neque, mattis venenatis lectus.
+                                        In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#" class="read_more_link">Read More</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-2.jpg" alt="article"/>
+                                    </a>
+                                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                                    <p>
+                                        Nulla quis lorem neque, mattis venenatis lectus.
+                                        In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#" class="read_more_link">Read More</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-3.jpg" alt="article"/>
+                                    </a>
+                                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                                    <p>
+                                        Nulla quis lorem neque, mattis venenatis lectus.
+                                        In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#" class="read_more_link">Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="main_news">
+                        <div class="section_title">
+                            <h2>latest articles</h2>
+                            <a href="#" class="more_plus">more +</a>
+                        </div>
+                        <div class="section_content">
+                            <ul class="three_col">
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-4.jpg" alt="article"/>
+                                    </a>
+                                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                                    <p>
+                                        Nulla quis lorem neque, mattis venenatis lectus.
+                                        In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#" class="read_more_link">Read More</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-5.jpg" alt="article"/>
+                                    </a>
+                                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                                    <p>
+                                        Nulla quis lorem neque, mattis venenatis lectus.
+                                        In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#" class="read_more_link">Read More</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-6.jpg" alt="article"/>
+                                    </a>
+                                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                                    <p>
+                                        Nulla quis lorem neque, mattis venenatis lectus.
+                                        In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <a href="#" class="read_more_link">Read More</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="main_news image_section">
+                        <div class="section_title">
+                            <h2>gallery</h2>
+                            <a href="#" class="more_plus">more +</a>
+                        </div>
+                        <div class="section_content">
+                            <ul class="three_col">
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-7.jpg" alt="article"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-8.jpg" alt="article"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-9.jpg" alt="article"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-7.jpg" alt="article"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-8.jpg" alt="article"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/article-9.jpg" alt="article"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="main_news">
+                        <div class="section_title">
+                            <h2>tech news</h2>
+                            <a href="#" class="more_plus">more +</a>
+                        </div>
+                        <div class="section_content">
+                            <ul class="two_col">
+                                <li>
+                                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                                    <p>
+                                        Nulla quis lorem neque, mattis venenatis lectus.
+                                        In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <div class="byline">
+                                        <address class="author">By <a rel="author" href="/author/john-doe">John Doe</a></address>
+                                         <span class="comment_num">29 comments</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                                    <p>
+                                        Nulla quis lorem neque, mattis venenatis lectus.
+                                        In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <div class="byline">
+                                        <address class="author">By <a rel="author" href="/author/john-doe">John Doe</a></address>
+                                        <span class="comment_num">29 comments</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                                    <p>
+                                        Nulla quis lorem neque, mattis venenatis lectus.
+                                        In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <div class="byline">
+                                        <address class="author">By <a rel="author" href="/author/john-doe">John Doe</a></address>
+                                        <span class="comment_num">29 comments</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h4><a href="#">Lorem ipsum dolor sit amet, consectetur </a></h4>
+                                    <p>
+                                        Nulla quis lorem neque, mattis venenatis lectus.
+                                        In interdum ullamcorper dolor eu mattis.
+                                    </p>
+                                    <div class="byline">
+                                        <address class="author">By <a rel="author" href="/author/john-doe">John Doe</a></address>
+                                        <span class="comment_num">29 comments</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <!-- /.main -->
+
+
+            </div>
+            <div class="clear"></div>
+            <!-- /.content -->
+        </div>
+        <!-- /.main -->
+        <div class="banner">
+            <img src="img/banner.jpg" align="banner">
+        </div>
+
+        <footer>
+            <nav class="footer_nav">
+                <ul>
+                    <li><a href="#" title="World News">World News</a></li>
+                    <li><a href="#" title="Sports">Sports</a></li>
+                    <li><a href="#" title="Tech">Tech</a></li>
+                    <li><a href="#" title="Business">Business</a></li>
+                    <li><a href="#" title="Movies">Movies</a></li>
+                    <li><a href="#" title="Entertainment">Entertainment</a></li>
+                    <li><a href="#" title="Culture">Culture</a></li>
+                    <li><a href="#" title="Books">Books</a></li>
+                    <li><a href="#" title="Classifields">Classifields</a></li>
+                    <li><a href="#" title="Blogs">Blogs</a></li>
+                </ul>
+            </nav>
+            <div class="footer_content">
+                <p>
+                    Copyright © 2011 The News Reporter Inc. All rights reserved. Theme designed by GraphicsFuel.com
+                    Reproduction in whole or in part in any form or medium without express written permission of The News Reporter Inc. is prohibited. The trade marks and images used in the design are the copyright of their respective owners. They are used only for display purpose.
+                </p>
+            </div>
+
+        </footer>
+    </div><!--/.wrapper-->
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="libs/k-gallery/kGallery-full.min.js"></script>
+    <script defer type="text/javascript" src="libs/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script defer type="text/javascript" src="js/scripts.js"></script>
+    <script>
+
+    </script>
+</body>
+</html>

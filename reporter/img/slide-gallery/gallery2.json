@@ -1,0 +1,27 @@
+{ "items": [
+    {
+       "large":"img/slide-gallery/365_39.jpg",
+       "thumb":"img/slide-gallery/previews/365_39.jpg",
+        "title":"title for first picture 1"
+    },
+    {
+        "large":"img/slide-gallery/365_38.jpg",
+        "thumb":"img/slide-gallery/previews/365_38.jpg",
+        "title":"title for first picture 2"
+    },
+    {
+        "large":"img/slide-gallery/365_39.jpg",
+        "thumb":"img/slide-gallery/previews/365_39.jpg",
+        "title":"title for first picture 3"
+    },
+    {
+        "large":"img/slide-gallery/365_40.jpg",
+        "thumb":"img/slide-gallery/previews/365_40.jpg",
+        "title":"title for first picture 4"
+    },
+    {
+      "large":"img/slide-gallery/365_39.jpg",
+      "thumb":"img/slide-gallery/previews/365_39.jpg",
+        "title":"title for first picture 5"
+    }
+]}

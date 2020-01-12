@@ -1,0 +1,11 @@
+/*==========  Desktop First Method  ========== */
+@media screen and (max-width: 1024px) {
+  body .wrapper header .logo .logo_top {
+    color: yellow; } }
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,196 @@
+*
+  -webkit-box-sixing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+body
+  -webkit-box-sixing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+div
+  -webkit-box-sixing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+body
+  color: $white
+  background: $body_bg url("../img/map-1.png") no-repeat
+  color: $text_normal
+  font: 12px pt_sansregular
+  .clear
+    clear: both
+
+.wrapper
+  width: 980px
+  margin: 45px auto 28px
+  background: $white
+  padding: 15px 20px
+  header
+    .logo
+      float: left
+      width: 30%
+      .logo_top
+        display: block
+        font: 15px Georgia, Times, 'Times New Roman', serif
+        text-transform: uppercase
+        color: black
+      .logo_bottom
+        display: block
+        font: 30px Georgia, Times, 'Times New Roman', serif
+        text-transform: uppercase
+        color: black
+        .logo_red
+          color: $dark_red
+    .nav_block
+      float: left
+      width: 70%
+      .social_icons
+        overflow: hidden
+        ul
+          overflow: hidden
+          float: right
+          li
+            float: left
+            &.si
+              margin-right: 12px
+              &:last-child
+                margin-right: 17px
+            &.sl
+              position: relative
+              margin-right: 36px
+              margin-top: 2px
+              .sl_tooltip
+                display: none
+                position: absolute
+                top: 0
+                right: -24px
+                font: 10px pt_sansregular
+                background: $white
+                color: $text_normal
+                border: 1px solid $form_bg
+                padding: 3px 6px 1px 6px
+              .sl_tooltip:before
+                content: ''
+                position: absolute
+                top: 50%
+                left: -5px
+                border-top: 5px solid transparent
+                border-bottom: 5px solid transparent
+                border-right: 5px solid $form_bg
+                margin-top: -5px
+              .sl_tooltip:after
+                content: ''
+                position: absolute
+                top: 50%
+                left: -4px
+                border-top: 4px solid transparent
+                border-bottom: 4px solid transparent
+                border-right: 4px solid $white
+                margin-top: -4px
+            &.sn
+              position: relative
+              margin-right: 25px
+              margin-top: 2px
+              .sn_tooltip
+                display: none
+                position: absolute
+                top: 0
+                right: -24px
+                font: 10px pt_sansregular
+                background: $white
+                color: $text_normal
+                border: 1px solid $form_bg
+                padding: 3px 6px 1px 6px
+              .sn_tooltip:before
+                content: ''
+                position: absolute
+                top: 50%
+                left: -5px
+                border-top: 5px solid transparent
+                border-bottom: 5px solid transparent
+                border-right: 5px solid $form_bg
+                margin-top: -5px
+              .sn_tooltip:after
+                content: ''
+                position: absolute
+                top: 50%
+                left: -4px
+                border-top: 4px solid transparent
+                border-bottom: 4px solid transparent
+                border-right: 4px solid $white
+                margin-top: -4px
+            a
+              display: block
+
+      .nav_items
+        overflow: hidden
+        ul
+          overflow: hidden
+          float: right
+          padding-top: 8px
+          padding-right: 16px
+          li
+            float: left
+            padding: 0 10px 0 10px
+            border-right: 1px solid $text_normal
+            &:last-child
+              border-right: none
+            a
+              display: block
+              color: $dark_red
+              font: 12px pt_sansregular
+              text-decoration: none
+              line-height: 1
+        .search_form
+          float: right
+          form
+            position: relative
+            #input_search
+              border: 0
+              display: inline-block
+              vertical-align: middle
+              background: $white
+              border: 1px solid $form_bg
+              color: $text_normal
+              width: 218px
+              height: 28px
+              outline: none
+              padding: 2px 5px 2px 7px
+            #submit_search
+              position: absolute
+              top: 0px
+              right: 0px
+              border: 0
+              display: inline-block
+              vertical-align: middle
+              background: $black
+              color: $white
+              width: 33px
+              height: 28px
+              cursor: pointer
+              font-size: 16px
+              &:hover
+                background: $black_hover
+    .main_nav
+      margin-top: 15px
+      .main_menu
+        display: none
+      .vertical_sidebar
+        display: none
+      ul
+        display: table
+        width: 100%
+        li
+          display: table-cell
+          padding: 13px 0
+          background: $black
+          &:hover
+            background: $black_hover
+          &:hover a
+            color: $dark_red
+          a
+            display: block
+            height: 16px
+            line-height: 19px
+            text-align: center
+            +main_nav_link

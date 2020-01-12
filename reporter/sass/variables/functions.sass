@@ -1,0 +1,112 @@
+/* Mixins */
+
+=border_radius($radius)
+  -webkit-border-radius: $radius // For Webkit browser(Chrome, Safari...)
+  -moz-border-radius:    $radius // For Mozilla browser
+  -o-border-radius:      $radius // For Opera browser
+  -ms-border-radius:     $radius // For Microsoft browser
+  border-radius:         $radius // For all browser(Newest version)
+
+=opacity($opacity)
+  -webkit-border-radius: $opacity // For Webkit browser(Chrome, Safari...)
+  -moz-border-radius:    $opacity // For Mozilla browser
+  -o-border-radius:      $opacity // For Opera browser
+  -ms-border-radius:     $opacity // For Microsoft browser
+  border-radius:         $opacity // For all browser(Newest version)
+
+=section_title
+  color: $title_black
+  text-transform: uppercase
+  h2
+    font: 20px pt_sansbold
+    line-height: 1
+    display: inline-block
+
+=more
+  background: $dark_red
+  width: 61px
+  height: 18px
+  line-height: 21px
+  vertical-align: middle
+  color: $white
+  font-size: 10px
+  font-family: pt_sansregular
+  text-transform: uppercase
+  text-align: center
+  text-decoration: none
+  display: inline-block
+  cursor: pointer
+
+=read_more
+  display: inline-block
+  font: 10px pt_sansbold
+  color: $red
+  text-transform: uppercase
+  text-decoration: none
+
+=main_nav_link
+  font: 15px pt_sansbold
+  color: $white
+  text-transform: uppercase
+  text-decoration: none
+
+=time
+  font: 11px open_sansregular
+  color: $text_date
+
+=date
+  font: 11px open_sansitalic
+  color: $text_date
+
+=comments
+  font: 11px pt_sansregular
+  color: $text_comments
+
+=paragraph_intro
+  color: $text_strong
+  font: 12px pt_sansbold
+  display: block
+
+=paragraph_text
+  color: $text_normal
+  font: 12px pt_sansregular
+
+=red_summary
+  color: $red_para
+  font: 12px pt_sansbold
+
+=black_summary
+  color: $black
+  font: 12px pt_sansbold
+
+=editorial_links
+  color: $dark_red
+  font: 12px pt_sansbold
+
+=sign_up_input
+  border: 1px solid $input_border
+  background: $input_bg
+  color: $text_normal
+  +paragraph_text
+
+
+=width100
+  width: 100%
+
+=width75
+  width: 75%
+
+=width50
+  width: 50%
+
+=float_left
+  float: left
+
+=float_right
+  float: right
+
+=align_left
+  text-align: left
+
+=align_right
+  text-align: right

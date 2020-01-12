@@ -1,0 +1,27 @@
+.wrapper
+  footer
+    padding: 22px 25px 25px 25px
+    .footer_nav
+      ul
+        display: table
+        width: 100%
+        li
+          display: table-cell
+          height: 12px
+          line-height: 12px
+          text-align: center
+          border-right: 1px solid $text_normal
+          &:last-child
+            border-right: none
+          a
+            color: $text_normal
+            text-transform: capitalize
+            text-decoration: none
+            font: 12px pt_sansregular
+            &:hover
+              color: $dark_red
+    .footer_content
+      margin-top: 25px
+      text-align: center
+      p
+        +paragraph_text

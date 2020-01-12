@@ -1,0 +1,349 @@
+.wrapper
+  .main
+    margin-top: 5px 
+    border-bottom: 1px dotted $text_normal
+    .sidebar
+      float: right
+      width: 250px !important
+      min-width: 250px !important
+      .video_news
+        background: $form_bg
+        margin-bottom: 20px
+        padding: 10px 25px 0 20px
+        position: relative
+        overflow: hidden
+        .play
+          overflow: hidden
+          margin-bottom: 8px
+          li
+            margin-bottom: 18px
+            a.call_video
+              display: block
+              text-decoration: none
+              /* popup window */
+              .mfp-fade.mfp-bg
+                opacity: 0
+                -webkit-transition: all 0.15s ease-out
+                -moz-transition: all 0.15s ease-out
+                transition: all 0.15s ease-out
+              .mfp-fade.mfp-bg.mfp-ready
+                opacity: 0.8
+              .mfp-fade.mfp-bg.mfp-removing
+                opacity: 0
+              .mfp-fade.mfp-wrap .mfp-content
+                opacity: 0
+                -webkit-transition: all 0.15s ease-out
+                -moz-transition: all 0.15s ease-out
+                transition: all 0.15s ease-out
+              .mfp-fade.mfp-wrap.mfp-ready .mfp-content
+                opacity: 1
+              .mfp-fade.mfp-wrap.mfp-removing .mfp-content
+                opacity: 0
+              iframe
+                display: inline-block
+                vertical-align: middle
+                margin-right: 10px
+                width: 68px
+                height: 56px
+              img.youtube_thumbnail
+                display: inline-block
+                vertical-align: middle
+                margin-right: 10px
+                width: 68px
+                height: 56px
+              .video_desc
+                display: inline-block
+                vertical-align: middle
+                margin-left: -4px
+                width: 120px
+                color: $text_normal
+                font: 12px pt_sansbold
+                &:hover
+                  color: $red_para
+        .more_plus
+          margin: 0
+          position: absolute
+          right: 0
+          bottom: 0
+          +more
+
+
+      .advertise
+        margin-bottom: 18px
+        img
+          width: 100%
+
+      .more_plus
+        margin: 0 0 39px 0
+    .sign_up_newsletter
+      background: $form_bg
+      text-align: center
+      padding: 15px 22px 22px 22px
+      margin-bottom: 21px
+      h2
+        font: 20px pt_sansbold
+        line-height: 1
+      .newsletter_subtitle
+        display: block
+        margin: 11px 0 15px 0
+        +paragraph_text
+      input
+        width: 100%
+        height: 24px
+        line-height: 24px
+        padding: 2px 9px
+      input[type=text]
+        margin-bottom: 8px
+        +sign_up_input
+      input[type=email]
+        margin-bottom: 11px
+        +sign_up_input
+      input[type=submit]
+        display: block
+        border: 1px solid $dark_red
+        background: $dark_red
+        color: $white
+        width: 101px
+        height: 26px
+        margin-bottom: 11px
+      .sing_up_note
+        color: $dark_red
+        font: 12px pt_sansregular
+    .popular
+      border-bottom: 3px solid $dark_red
+      .most_read
+        float: right
+        color: $text_strong
+        font: 20px pt_sansbold
+        line-height: 1
+        text-transform: uppercase
+      .popular_links
+        color: $dark_red
+        font: 20px pt_sansbold
+        line-height: 1
+        text-transform: uppercase
+    .popular_articles
+      li
+        padding: 18px 3px 21px 0
+        border-bottom: 1px dotted $text_normal
+        &:last-child
+          border-bottom: none
+        time
+          +date
+        p
+          +black_summary
+        a
+          +read_more
+    .more_plus
+      // margin: 21px 0 26px 0
+      +more
+    .discount
+      img
+        width: 100%
+
+    .content
+      margin-right: 265px
+      overflow: hidden
+      #gallery-wrapper
+        text-align: center
+        position: relative
+        overflow: hidden
+        padding: 10px
+        background: #202021
+        margin-bottom: 20px
+        .breaking_news
+          background: $dark_red
+          display: inline-block
+          color: #ffffff
+          position: absolute
+          left: 0
+          bottom: 0
+          z-index: 10
+          text-transform: uppercase
+          padding: 8px 14px
+        .kSlideshowWrapper
+          width: 81%
+          float: left
+          border: 7px solid black
+          height: 292px
+          margin-right: 1%
+
+        .kSlideshowItemDiv
+          height: 280px
+          img
+            z-index: 400
+            width: 100%
+            height: 100%
+        .kSlideshowTitle
+          background: black
+          opacity: 0.5
+          line-height: 30px
+        .kThumbnailsInnerWrapper
+          overflow: initial
+        .kThumbnailsWrapper
+          width: 18%
+          float: left
+          height: 295px
+          max-height: 295px
+          overflow: hidden
+          .kThumbnailsPrevPage
+            top: -26px
+            left: 40px
+            background: url("i/gtk-media-forward-up.png") no-repeat scroll 0 0 transparent
+
+        .kThumbnailsWrapper .kThumbnailsNextPage
+          bottom: -24px
+          top: auto
+          left: 40px
+          background: url("i/gtk-media-forward-down.png") no-repeat scroll 0 0 transparent
+
+        .kThumbnailsWrapper
+          position: relative
+          margin: 0
+
+        .kThumbnailsPage
+          position: static
+          img
+            border: 3px solid #202021
+            background: white
+            width: 100%
+            height: 69px
+        .kThumbnailsPage
+          .selectedThumbnail
+            border-color: red
+
+      .content_sidebar
+        float: right
+        width: 202px
+        .widget
+          padding: 12px 20px 16px 0
+          text-align: left
+          border-bottom: 1px dotted $text_normal
+          h4
+            margin-bottom: 5px
+          a
+            font: 14px pt_sansbold
+            text-decoration: none
+            color: $black
+            &:hover
+              color: $dark_red
+          p
+            +paragraph_text
+            margin-bottom: 8px
+          .widget_footer
+            a
+              margin-right: 17px
+              +read_more
+            time
+              +time
+        .more_plus
+          margin: 21px 0 24px 0
+          +more
+        h2
+          text-transform: uppercase
+          font: 20px pt_sansbold
+          line-height: 1
+          border-bottom: 3px solid $dark_red
+
+        .editorial_links
+          a
+            text-decoration: none
+            img
+              width: 100%
+              margin: 10px 0 8px 0
+            span
+              +editorial_links
+      .content_main
+        margin-right: 214px
+        .main_news
+          margin-bottom: 35px
+          &.image_section
+            margin-bottom: 10px
+          .section_title
+            position: relative
+            +section_title
+            .more_plus
+              +more
+              position: absolute
+              right: 0
+              bottom: 0
+            border-bottom: 3px solid $dark_red
+          .section_content
+            padding-top: 15px
+            ul
+              overflow: hidden
+              &.three_col
+                li
+                  float: left
+                  width: 30%
+                  margin-right: 5%
+                  a
+                    display: block
+                    margin: 0 0 5px 0
+                    img
+                      width: 100%
+                  h4
+                    a
+                      font: 14px pt_sansbold
+                      text-decoration: none
+                      color: $black
+                      &:hover
+                        color: $dark_red
+                  p
+                    +paragraph_text
+                  .read_more_link
+                    margin: 18px 0 0 0
+                    +read_more
+                  &:nth-child(3)
+                    margin-right: 0
+                  &:nth-child(6)
+                    margin-right: 0
+
+              &.two_col
+                li
+                  float: left
+                  width: 45%
+                  margin-right: 10%
+                  padding-top: 4px
+                  padding-bottom: 22px
+                  h4
+                    margin-bottom: 5px
+                    a
+                      font: 14px pt_sansbold
+                      text-decoration: none
+                      color: $black
+                      &:hover
+                        color: $dark_red
+                  p
+                    +paragraph_text
+                  .read_more_link
+                    margin-top: 18px
+                    +read_more
+                  &:first-child
+                    border-bottom: 1px dotted $text_normal
+                  &:nth-child(2)
+                    border-bottom: 1px dotted $text_normal
+                  &:nth-child(2)
+                    margin-right: 0
+                  &:nth-child(4)
+                    margin-right: 0
+                  .byline
+                    color: $text_normal
+                    font: 11px pt_sansregular
+                    .author
+                      display: inline-block
+                      padding-right: 10px
+                      margin-right: 8px
+                      border-right: 1px solid
+                      a
+                        color: $dark_red
+                        font: 11px pt_sansregular
+                        text-decoration: none
+                        line-height: 1
+
+
+  .banner
+    padding: 25px 0 27px 0
+    border-bottom: 1px dotted $text_normal
+    img
+      width: 100%

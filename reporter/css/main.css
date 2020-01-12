@@ -1,0 +1,11 @@
+.main .sidebar {
+  float: right;
+  width: 250px !important;
+  min-width: 250px !important;
+  border: 1px solid #ffcccc; 
+}
+.main .content {
+  margin-right: 265px;
+  border: 1px solid #ff0000; }
+
+/*# sourceMappingURL=main.css.map */
